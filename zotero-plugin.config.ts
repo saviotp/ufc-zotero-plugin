@@ -155,12 +155,12 @@ export default defineConfig({
       },
     },
 
-    // Desabilita geração de update.json (não temos releases ainda).
-    // Usar lista vazia em vez de `false` porque o scaffold sempre
-    // tenta iterar sobre `updates` — `false` causa TypeError.
-    // LEMBRETE: reabilitar quando configurar Bumpp/releases (Fase 6).
+    // Gera update.json para atualizações automáticas no Zotero.
+    // O Zotero consulta este arquivo periodicamente para verificar
+    // se há versões novas. O scaffold preenche a versão e o link
+    // de download automaticamente a partir dos valores em `define`.
     makeUpdateJson: {
-      updates: [],
+      enable: true,
     },
 
     // ─── Assets ───────────────────────────────────────────────

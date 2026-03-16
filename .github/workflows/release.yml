@@ -1,0 +1,72 @@
+# Release — Publicação automática do plugin UFC-ABNT
+#
+# Este workflow roda quando uma tag no formato v* é enviada ao GitHub.
+# Ele compila o plugin, roda os testes, e cria uma Release com:
+#   - O arquivo .xpi (para o usuário instalar no Zotero)
+#   - O arquivo update.json (para atualizações automáticas)
+#
+# Fluxo para publicar uma nova versão:
+#   1. Atualizar a versão no package.json (ex: "0.2.0")
+#   2. Commit: git commit -am "release: v0.2.0"
+#   3. Tag: git tag v0.2.0
+#   4. Push: git push origin main --tags
+#   5. O workflow cria a Release automaticamente
+
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+# Permissão para criar releases e escrever no repositório.
+# Sem isso, a action de release não consegue criar a Release
+# nem fazer upload dos artefatos.
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Clona o repositório com a tag que disparou o workflow.
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      # 2. Instala Node.js 22 (LTS — versão estável para releases).
+      #    Não usamos matriz aqui porque só precisamos de um build
+      #    para o artefato final.
+      - name: Instalar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # 3. Instala dependências do lockfile exato.
+      - name: Instalar dependências
+        run: npm ci
+
+      # 4. Roda os testes ANTES do build de release.
+      #    Se algum teste falhar, o workflow para aqui e a release
+      #    não é criada — evita publicar uma versão quebrada.
+      - name: Testes CSL
+        run: npm test
+
+      # 5. Compila o plugin (gera .scaffold/build/ufc-abnt.xpi).
+      - name: Build do plugin
+        run: npm run build
+
+      # 6. Cria a Release no GitHub com os artefatos.
+      #    - O .xpi é o arquivo que o usuário baixa e instala no Zotero.
+      #    - O update.json permite que o Zotero detecte novas versões
+      #      e ofereça atualização automática.
+      #    - generate_release_notes: true faz o GitHub gerar notas
+      #      automaticamente a partir dos commits desde a última tag.
+      - name: Criar Release no GitHub
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            .scaffold/build/ufc-abnt.xpi
+            .scaffold/build/update.json
+          generate_release_notes: true
