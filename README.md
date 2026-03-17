@@ -7,7 +7,7 @@ Desenvolvido para a comunidade acadêmica da UFC — alunos, pesquisadores e doc
 ## Funcionalidades
 
 - **Estilo CSL personalizado** (`ufc.csl`) com 20 macros e 26 tipos de referência, cobrindo todas as 67 seções do Guia de Normalização
-- **Pós-processamento automático** com 18 correções que vão além do que o CSL consegue expressar (subtítulo fora do negrito, en-dash para hífen em páginas, caixa alta em títulos sem autor, etc.)
+- **Pós-processamento automático** com 19 correções que vão além do que o CSL consegue expressar (subtítulo fora do negrito, en-dash para hífen em páginas, caixa alta em títulos sem autor, etc.)
 - **Instalação automática do estilo**: o plugin registra o CSL `ufc.csl` no Zotero ao ser ativado
 - **137 testes automatizados** cobrindo 138 referências extraídas literalmente do Guia da UFC
 - **Compatível com Zotero 8** (não compatível com versões anteriores)
@@ -47,6 +47,45 @@ Desenvolvido para a comunidade acadêmica da UFC — alunos, pesquisadores e doc
 Para que as referências sejam geradas corretamente, é fundamental preencher os campos corretos no Zotero. A tabela abaixo mapeia cada tipo de referência do Guia UFC para o tipo de item e os campos correspondentes no Zotero.
 
 > **Dica geral:** Ao adicionar um livro pelo ISBN, o Zotero preenche a maioria dos campos automaticamente. Caso algum campo não seja encontrado, consulte o **expediente** do livro (geralmente na página de rosto ou no verso dela) para editora, edição e local de publicação.
+
+---
+
+### Limpeza de dados importados por DOI
+
+Ao importar referências pelo **DOI**, o Zotero busca os metadados no Crossref. Esses dados frequentemente vêm com problemas de formatação que **precisam ser corrigidos manualmente** no Zotero antes de gerar a referência.
+
+> **O plugin corrige automaticamente** a remoção do nome do país no local de publicação (ex: "Rio de Janeiro, Brazil" → "Rio de Janeiro"). Os demais itens abaixo precisam de revisão manual.
+
+#### O que verificar após importar por DOI
+
+| Campo | Problema comum | O que corrigir |
+|---|---|---|
+| **Autor** | Sobrenome inclui nomes do meio (ex: `Cardoso De Castro Salgado, Luciana`) | Mover nomes do meio para o campo Nome: Sobrenome = `Salgado`, Nome = `Luciana Cardoso de Castro` |
+| **Título** | Todo em MAIÚSCULAS (ex: `CULTURAL VIEWPOINT METAPHORS...`) | Reescrever em caixa normal: `Cultural viewpoint metaphors...` (manter siglas como estão) |
+| **Tipo (Gênero)** | Formato errado ou em inglês (ex: `DOUTOR EM CIÊNCIAS - INFORMÁTICA`) | Corrigir para o formato UFC: `Doutorado em Informática` (para teses) ou `Mestrado em ...` (para dissertações) |
+| **Editora (Universidade)** | Todo em MAIÚSCULAS (ex: `PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO DE JANEIRO`) | Reescrever em caixa mista: `Pontifícia Universidade Católica do Rio de Janeiro` |
+| **Local** | Inclui o país (ex: `Rio de Janeiro, Brazil`) | O plugin remove automaticamente. Se preferir, corrija para apenas a cidade: `Rio de Janeiro` |
+| **Nota (Extra)** | Ausente | Para teses/dissertações, adicionar a faculdade/departamento com travessão: `Departamento de Informática – Pontifícia Universidade Católica do Rio de Janeiro` |
+
+#### Exemplo: antes e depois da limpeza
+
+**Importado por DOI (dados brutos):**
+```
+CARDOSO DE CASTRO SALGADO, Luciana. CULTURAL VIEWPOINT METAPHORS TO EXPLORE
+AND COMMUNICATE CULTURAL PERSPECTIVES IN CROSS-CULTURAL HCI DESIGN. 2011.
+DOUTOR EM CIÊNCIAS - INFORMÁTICA, PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO DE
+JANEIRO, Rio de Janeiro, Brazil, 2011. Disponível em: ...
+```
+
+**Após limpeza manual no Zotero:**
+```
+SALGADO, Luciana Cardoso de Castro. Cultural viewpoint metaphors to explore
+and communicate cultural perspectives in cross-cultural HCI design. 2011.
+Tese (Doutorado em Informática) – Departamento de Informática, Pontifícia
+Universidade Católica do Rio de Janeiro, Rio de Janeiro, 2011. Disponível em: ...
+```
+
+> **Dica:** A limpeza leva poucos minutos por referência e garante que sua bibliografia fique 100% conforme o Guia UFC. Referências importadas por ISBN geralmente têm dados mais limpos.
 
 ---
 

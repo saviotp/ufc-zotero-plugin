@@ -5,26 +5,27 @@
  * O CSL é declarativo e tem limitações — certas regras da UFC/ABNT
  * exigem manipulação direta do HTML gerado.
  *
- * São 18 correções organizadas em ordem de execução (a ordem importa):
+ * São 19 correções organizadas em ordem de execução (a ordem importa):
  *
- *   0.  fixOrdinalSup         — <sup>o/a</sup> → º/ª
- *   0b. fixBookTitleEntry     — remove <b> de livros sem autor (entrada por título)
- *   1.  fixSubtitleBold       — subtítulo fora do negrito
- *   2a. fixPageEnDashToHyphen — en-dash → hífen em páginas
- *   2b. fixMonthRangeSeparator— en-dash → barra entre meses
- *   3.  fixLegislationNote    — nota [Constituição (ano)] antes do título
- *   5.  fixInstitutionalAuthor— restaura caixa mista de autor institucional (*)
- *   5b. fixDuplicatePublisher — remove editora = autor (*)
- *   6.  fixEditorLabel        — (org.) → (ed.) quando editor substitui autor
- *   7.  fixEbookItalic        — "E-book" em itálico
- *   8.  fixFilmTitleCase      — primeira palavra em MAIÚSCULAS (sem autor)
- *   10. fixBracketedTitle     — colchetes fora do negrito
- *   11. fixAnaisBrackets      — "[...]" fora do negrito em Anais
- *   12. fixBibleLanguageCase  — "PORTUGUÊS" → "Português" após BÍBLIA
- *   13. fixContainerTitleCase — primeira palavra do container-title em MAIÚSCULAS
- *   14. fixChapterNoPublisher — remove [s. n.] em chapters sem editora
- *   15. fixCertidaoDate       — "Registro em," → "Registro em:"
- *   16. fixEventJournalBold   — bold no periódico em eventos tipo book (*)
+ *   0.  fixOrdinalSup             — <sup>o/a</sup> → º/ª
+ *   0b. fixBookTitleEntry         — remove <b> de livros sem autor (entrada por título)
+ *   1.  fixSubtitleBold           — subtítulo fora do negrito
+ *   2a. fixPageEnDashToHyphen     — en-dash → hífen em páginas
+ *   2b. fixMonthRangeSeparator    — en-dash → barra entre meses
+ *   3.  fixLegislationNote        — nota [Constituição (ano)] antes do título
+ *   5.  fixInstitutionalAuthor    — restaura caixa mista de autor institucional (*)
+ *   5b. fixDuplicatePublisher     — remove editora = autor (*)
+ *   6.  fixEditorLabel            — (org.) → (ed.) quando editor substitui autor
+ *   7.  fixEbookItalic            — "E-book" em itálico
+ *   8.  fixFilmTitleCase          — primeira palavra em MAIÚSCULAS (sem autor)
+ *   10. fixBracketedTitle         — colchetes fora do negrito
+ *   11. fixAnaisBrackets          — "[...]" fora do negrito em Anais
+ *   12. fixBibleLanguageCase      — "PORTUGUÊS" → "Português" após BÍBLIA
+ *   13. fixContainerTitleCase     — primeira palavra do container-title em MAIÚSCULAS
+ *   14. fixChapterNoPublisher     — remove [s. n.] em chapters sem editora
+ *   15. fixCertidaoDate           — "Registro em," → "Registro em:"
+ *   16. fixEventJournalBold       — bold no periódico em eventos tipo book (*)
+ *   17. fixPublisherPlaceCountry  — remove país do local de publicação (DOI)
  *
  *   (*) = precisa de dados dos itens (CslItemData)
  *
@@ -182,7 +183,7 @@ function extractItemData(args: any[]): CslItemData[] {
 // ========================================================================
 
 /**
- * Aplica todas as 18 correções ao HTML da bibliografia.
+ * Aplica todas as 19 correções ao HTML da bibliografia.
  *
  * A ORDEM importa:
  *   - fixOrdinalSup roda primeiro para normalizar <sup> → caractere Unicode,
@@ -227,6 +228,8 @@ function applyCorrections(html: string, items: CslItemData[]): string {
       entry = fixCertidaoDate(entry);
       // Correção que precisa de items
       entry = fixEventJournalBold(entry, items);
+      // Correção de dados importados via DOI
+      entry = fixPublisherPlaceCountry(entry);
       return `${openDiv}${entry}${closeDiv}`;
     },
   );
@@ -573,6 +576,58 @@ function fixEventJournalBold(
         result = result.replace(plain, `<b>${plain}</b>`);
       }
     }
+  }
+  return result;
+}
+
+/**
+ * Correção 17: Remove nome do país do local de publicação
+ *
+ * Dados importados via DOI (Crossref) frequentemente incluem o país no
+ * campo publisher-place: "Rio de Janeiro, Brazil", "New York, USA".
+ * A UFC/ABNT exige apenas a cidade: "Rio de Janeiro", "New York".
+ *
+ * Usa lista fechada de países (em inglês e português) que o Crossref
+ * comprovadamente retorna. Remove ", País" apenas quando seguido por
+ * vírgula ou ponto (contexto de publicação), evitando falsos positivos.
+ */
+const COUNTRIES: string[] = [
+  // Inglês (como vem do Crossref)
+  "Brazil", "United States", "USA", "US",
+  "United Kingdom", "UK", "England", "Scotland", "Wales",
+  "France", "Germany", "Spain", "Italy", "Portugal",
+  "Netherlands", "Belgium", "Switzerland", "Austria",
+  "Canada", "Australia", "New Zealand",
+  "Japan", "China", "South Korea", "India",
+  "Mexico", "Argentina", "Colombia", "Chile",
+  "Sweden", "Norway", "Denmark", "Finland",
+  "Poland", "Czech Republic", "Russia",
+  "South Africa", "Nigeria", "Egypt",
+  "Ireland", "Israel", "Singapore", "Taiwan",
+  // Português (caso Zotero/tradutor localize)
+  "Brasil", "Estados Unidos", "EUA",
+  "Reino Unido", "Inglaterra",
+  "França", "Alemanha", "Espanha", "Itália",
+  "Países Baixos", "Holanda", "Bélgica", "Suíça",
+  "Canadá", "Austrália", "Nova Zelândia",
+  "Japão", "China", "Coreia do Sul", "Índia",
+  "México", "Colômbia",
+  "Suécia", "Noruega", "Dinamarca", "Finlândia",
+  "Polônia", "Rússia",
+  "África do Sul", "Nigéria", "Egito",
+  "Irlanda",
+];
+
+/** Regex pré-compiladas para cada país (performance). */
+const COUNTRY_REGEXES: RegExp[] = COUNTRIES.map((country) => {
+  const escaped = country.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp(`,\\s*${escaped}(?=[,.])`);
+});
+
+function fixPublisherPlaceCountry(html: string): string {
+  let result = html;
+  for (const re of COUNTRY_REGEXES) {
+    result = result.replace(re, "");
   }
   return result;
 }

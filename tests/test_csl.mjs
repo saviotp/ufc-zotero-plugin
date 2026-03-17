@@ -104,6 +104,7 @@ function postProcess(html, items) {
   result = fixContainerTitleCase(result);
   result = fixCertidaoDate(result);
   result = fixEventJournalBold(result, items);
+  result = fixPublisherPlaceCountry(result);
   return result;
 }
 
@@ -628,6 +629,65 @@ function fixEventJournalBold(html, items) {
         result = result.replace(plain, `<b>${plain}</b>`);
       }
     }
+  }
+  return result;
+}
+
+/**
+ * Correção 17: Remove nome do país do local de publicação
+ *
+ * Problema:
+ *   Dados importados via DOI (Crossref) frequentemente incluem o país no
+ *   campo publisher-place: "Rio de Janeiro, Brazil", "New York, USA".
+ *   A UFC/ABNT exige apenas a cidade: "Rio de Janeiro", "New York".
+ *
+ * Como funciona:
+ *   Mantém uma lista explícita de países (em inglês e português) que o
+ *   Crossref comprovadamente retorna no campo publisher-place.
+ *   Remove ", País" apenas quando seguido por vírgula ou ponto (contexto
+ *   de publicação: "Cidade, País, ano." ou "Cidade, País.").
+ *
+ * Segurança:
+ *   - Lista fechada de países (sem regex genérica)
+ *   - Exige vírgula antes E vírgula/ponto depois (evita falsos positivos)
+ *   - Não afeta referências onde o país NÃO aparece (maioria dos fixtures)
+ *   - Se o país é o local inteiro (sem cidade), não remove (exige vírgula antes)
+ */
+function fixPublisherPlaceCountry(html) {
+  // Países mais comuns no Crossref (inglês e português)
+  const countries = [
+    // Inglês (como vem do Crossref)
+    "Brazil", "United States", "USA", "US",
+    "United Kingdom", "UK", "England", "Scotland", "Wales",
+    "France", "Germany", "Spain", "Italy", "Portugal",
+    "Netherlands", "Belgium", "Switzerland", "Austria",
+    "Canada", "Australia", "New Zealand",
+    "Japan", "China", "South Korea", "India",
+    "Mexico", "Argentina", "Colombia", "Chile",
+    "Sweden", "Norway", "Denmark", "Finland",
+    "Poland", "Czech Republic", "Russia",
+    "South Africa", "Nigeria", "Egypt",
+    "Ireland", "Israel", "Singapore", "Taiwan",
+    // Português (caso Zotero/tradutor localize)
+    "Brasil", "Estados Unidos", "EUA",
+    "Reino Unido", "Inglaterra",
+    "França", "Alemanha", "Espanha", "Itália",
+    "Países Baixos", "Holanda", "Bélgica", "Suíça",
+    "Canadá", "Austrália", "Nova Zelândia",
+    "Japão", "China", "Coreia do Sul", "Índia",
+    "México", "Colômbia",
+    "Suécia", "Noruega", "Dinamarca", "Finlândia",
+    "Polônia", "Rússia",
+    "África do Sul", "Nigéria", "Egito",
+    "Irlanda",
+  ];
+
+  let result = html;
+  for (const country of countries) {
+    // Padrão: ", País," ou ", País." (com possível espaço)
+    const escaped = country.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const re = new RegExp(`,\\s*${escaped}(?=[,.])`);
+    result = result.replace(re, "");
   }
   return result;
 }
