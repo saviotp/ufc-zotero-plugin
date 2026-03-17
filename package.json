@@ -11,7 +11,8 @@
     "test": "node tests/test_csl.mjs",
     "typecheck": "tsc --noEmit",
     "build": "zotero-plugin build",
-    "dev": "zotero-plugin dev"
+    "dev": "zotero-plugin dev",
+    "release": "bumpp"
   },
   "repository": {
     "type": "git",
@@ -39,6 +40,7 @@
     "zotero-plugin-toolkit": "^5.1.2"
   },
   "devDependencies": {
+    "bumpp": "^11.0.1",
     "prettier": "^3.8.1",
     "typescript": "^5.9.3",
     "zotero-plugin-scaffold": "^0.8.4",

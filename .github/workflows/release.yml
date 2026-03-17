@@ -1,16 +1,26 @@
 # Release — Publicação automática do plugin UFC-ABNT
 #
 # Este workflow roda quando uma tag no formato v* é enviada ao GitHub.
-# Ele compila o plugin, roda os testes, e cria uma Release com:
-#   - O arquivo .xpi (para o usuário instalar no Zotero)
-#   - O arquivo update.json (para atualizações automáticas)
+# Ele compila o plugin, roda os testes, e cria duas Releases:
+#
+#   1. Release versionada (ex: v0.2.0):
+#      - Contém o .xpi (para o usuário instalar no Zotero)
+#      - Contém o update.json (cópia de referência)
+#      - Notas de release geradas automaticamente
+#
+#   2. Release fixa na tag "release":
+#      - Contém APENAS o update.json
+#      - URL estável que o Zotero consulta para detectar atualizações
+#      - É sobrescrita a cada nova versão (sempre aponta para a última)
+#
+# Por que duas releases?
+#   O Zotero precisa de um URL fixo para checar atualizações. O update.json
+#   na tag "release" sempre aponta para o .xpi da versão mais recente.
+#   Assim, o manifest.json do plugin pode usar um updateURL que nunca muda:
+#   https://github.com/.../releases/download/release/update.json
 #
 # Fluxo para publicar uma nova versão:
-#   1. Atualizar a versão no package.json (ex: "0.2.0")
-#   2. Commit: git commit -am "release: v0.2.0"
-#   3. Tag: git tag v0.2.0
-#   4. Push: git push origin main --tags
-#   5. O workflow cria a Release automaticamente
+#   npm run release  (bumpp faz bump + commit + tag + push automaticamente)
 
 name: Release
 
@@ -53,20 +63,47 @@ jobs:
       - name: Testes CSL
         run: npm test
 
-      # 5. Compila o plugin (gera .scaffold/build/ufc-abnt.xpi).
+      # 5. Compila o plugin (gera .scaffold/build/ufc-abnt.xpi e update.json).
       - name: Build do plugin
         run: npm run build
 
-      # 6. Cria a Release no GitHub com os artefatos.
-      #    - O .xpi é o arquivo que o usuário baixa e instala no Zotero.
-      #    - O update.json permite que o Zotero detecte novas versões
-      #      e ofereça atualização automática.
-      #    - generate_release_notes: true faz o GitHub gerar notas
-      #      automaticamente a partir dos commits desde a última tag.
-      - name: Criar Release no GitHub
+      # 6. Cria a Release versionada (ex: v0.2.0) com o .xpi e update.json.
+      #    Esta é a release que o usuário vê na página de releases do GitHub.
+      #    generate_release_notes: true gera notas a partir dos commits
+      #    desde a última tag.
+      - name: Criar Release versionada
         uses: softprops/action-gh-release@v2
         with:
           files: |
             .scaffold/build/ufc-abnt.xpi
             .scaffold/build/update.json
           generate_release_notes: true
+
+      # 7. Atualiza a release fixa na tag "release" com o update.json.
+      #    O Zotero consulta este URL fixo para detectar novas versões:
+      #    https://github.com/.../releases/download/release/update.json
+      #
+      #    Este passo:
+      #    - Apaga a tag "release" antiga (se existir)
+      #    - Recria a tag "release" no commit atual
+      #    - Cria/atualiza a release com o update.json mais recente
+      #
+      #    make_latest: false evita que esta release apareça como "Latest"
+      #    na página do GitHub (quem deve aparecer é a versionada).
+      - name: Atualizar tag fixa "release"
+        run: |
+          git tag -d release 2>/dev/null || true
+          git push origin :refs/tags/release 2>/dev/null || true
+          git tag release
+          git push origin release
+
+      - name: Atualizar Release fixa com update.json
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: release
+          name: "Update Check"
+          body: |
+            Esta release contém apenas o `update.json` para atualizações automáticas do Zotero.
+            Para baixar o plugin, veja a [release mais recente](../../releases/latest).
+          files: .scaffold/build/update.json
+          make_latest: false

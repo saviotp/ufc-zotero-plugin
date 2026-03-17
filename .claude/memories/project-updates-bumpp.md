@@ -1,11 +1,24 @@
 ---
-name: project-updates-bumpp
-description: Lembrete para reabilitar makeUpdateJson quando configurar Bumpp e releases no GitHub.
+name: project-releases-bumpp
+description: Sistema de releases configurado — bumpp + release.yml com tag fixa "release" para update.json.
 type: project
 ---
 
-`makeUpdateJson` está desabilitado no `zotero-plugin.config.ts` (valor `false`).
+## Sistema de releases — CONFIGURADO
 
-**Why:** Não temos releases ainda, então o update.json não é necessário agora. Mas quando configurarmos o Bumpp e o sistema de releases no GitHub (Fase 6), o update.json será necessário para que o Zotero detecte atualizações automáticas do plugin.
+**Componentes:**
+1. `bumpp` (devDependency) + `bump.config.ts` — versionamento interativo
+2. `release.yml` — 2 releases por tag: versionada (.xpi) + fixa "release" (update.json)
+3. `update.json` habilitado no scaffold — gerado automaticamente no build
 
-**How to apply:** Na Fase 6 (Setup GitHub / CI/CD / releases), reabilitar `makeUpdateJson` no `zotero-plugin.config.ts` e configurar os campos `updateURL` e `xpiDownloadLink` com os URLs corretos do repositório GitHub.
+**Fluxo:**
+```
+npm run release → bumpp (bump + commit + tag + push) → release.yml → 2 releases no GitHub
+```
+
+**URLs no build:**
+- `manifest.json` → `update_url: .../releases/download/release/update.json` (fixo)
+- `update.json` → `update_link: .../releases/download/vX.Y.Z/ufc-abnt.xpi` (versionado)
+
+**Why:** Automatiza o processo de release e permite que o Zotero detecte atualizações automaticamente.
+**How to apply:** Para publicar nova versão, basta rodar `npm run release` e seguir o prompt interativo.
