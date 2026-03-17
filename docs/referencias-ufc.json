@@ -1,0 +1,1884 @@
+[
+  {
+    "id": "lessa-2014",
+    "type": "book",
+    "title": "Cadê os operários?",
+    "author": [
+      { "family": "Lessa", "given": "Sérgio" }
+    ],
+    "publisher": "Instituto Lukacs",
+    "publisher-place": "São Paulo",
+    "issued": { "date-parts": [[2014]] }
+  },
+  {
+    "id": "marconi-lakatos-2004",
+    "type": "book",
+    "title": "Metodologia científica",
+    "author": [
+      { "family": "Marconi", "given": "Marina de Andrade" },
+      { "family": "Lakatos", "given": "Eva Maria" }
+    ],
+    "edition": "4",
+    "publisher": "Atlas",
+    "publisher-place": "São Paulo",
+    "issued": { "date-parts": [[2004]] }
+  },
+  {
+    "id": "libaneo-oliveira-toschi-2012",
+    "type": "book",
+    "title": "Educação escolar: políticas, estrutura e organização",
+    "author": [
+      { "family": "Libâneo", "given": "José Carlos" },
+      { "family": "Oliveira", "given": "João Ferreira de" },
+      { "family": "Toschi", "given": "Mirza Seabra" }
+    ],
+    "publisher": "Cortez",
+    "publisher-place": "São Paulo",
+    "issued": { "date-parts": [[2012]] }
+  },
+  {
+    "id": "farias-etal-full-2014",
+    "type": "book",
+    "title": "Didática e docência",
+    "author": [
+      { "family": "Farias", "given": "I. M. S." },
+      { "family": "Sales", "given": "J. C. B." },
+      { "family": "Braga", "given": "M. M. S. C." },
+      { "family": "França", "given": "M. do S. L. M." }
+    ],
+    "edition": "4",
+    "publisher": "Liber Livro",
+    "publisher-place": "Brasília, DF",
+    "issued": { "date-parts": [[2014]] }
+  },
+  {
+    "id": "farias-etal-short-2014",
+    "type": "book",
+    "title": "Didática e docência",
+    "author": [
+      { "family": "Farias", "given": "I. M. S." }
+    ],
+    "edition": "4",
+    "publisher": "Liber Livro",
+    "publisher-place": "Brasília, DF",
+    "issued": { "date-parts": [[2014]] }
+  },
+  {
+    "id": "rua-etal-1993",
+    "type": "book",
+    "title": "Para ensinar geografia: contribuições para os trabalhos com 1º e 2º graus",
+    "author": [
+      { "family": "Rua", "given": "João" }
+    ],
+    "publisher": "ACCESS",
+    "publisher-place": "Rio de Janeiro",
+    "issued": { "date-parts": [[1993]] }
+  },
+  {
+    "id": "aulete-1980",
+    "type": "book",
+    "title": "Dicionário contemporâneo da língua portuguesa",
+    "author": [
+      { "family": "Aulete", "given": "Caldas" }
+    ],
+    "edition": "3",
+    "publisher": "Delta",
+    "publisher-place": "Rio de Janeiro",
+    "issued": { "date-parts": [[1980]] }
+  },
+  {
+    "id": "ohara-2007",
+    "type": "book",
+    "title": "Enciclopédia da moda: de 1840 à década de 90",
+    "author": [
+      { "family": "O'Hara", "given": "Georgina" }
+    ],
+    "publisher": "Companhia das Letras",
+    "publisher-place": "São Paulo",
+    "issued": { "date-parts": [[2007]] }
+  },
+  {
+    "id": "ufc-bu-relatorio-2011",
+    "type": "book",
+    "title": "Relatório de atividades 2011",
+    "author": [
+      { "literal": "UNIVERSIDADE FEDERAL DO CEARÁ. Biblioteca Universitária" }
+    ],
+    "publisher": "Biblioteca Universitária",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2011]] }
+  },
+  {
+    "id": "collins-2009",
+    "type": "book",
+    "title": "COLLINS dicionário: inglês-português, português-inglês",
+    "edition": "6",
+    "publisher": "Collins",
+    "publisher-place": "Glasgow",
+    "issued": { "date-parts": [[2009]] }
+  },
+  {
+    "id": "koogan-houaiss-1998",
+    "type": "book",
+    "title": "Enciclopédia e dicionário digital",
+    "editor": [
+      { "family": "Koogan", "given": "André" },
+      { "family": "Houaiss", "given": "Antônio" }
+    ],
+    "publisher": "Delta",
+    "publisher-place": "São Paulo",
+    "issued": { "date-parts": [[1998]] },
+    "medium": "5 CD-ROM"
+  },
+  {
+    "id": "castro-2016",
+    "type": "book",
+    "title": "Água e democracia na América Latina",
+    "author": [
+      { "family": "Castro", "given": "José Esteban" }
+    ],
+    "publisher": "EDUEPB",
+    "publisher-place": "Campina Grande",
+    "issued": { "date-parts": [[2016]] },
+    "medium": "E-book",
+    "URL": "http://books.scielo.org/id/tn4y9/pdf/castro-9788578794866.pdf",
+    "accessed": { "date-parts": [[2019, 8, 22]] }
+  },
+  {
+    "id": "ferreira-aurelio-2010",
+    "type": "book",
+    "title": "Dicionário Aurélio da língua portuguesa",
+    "author": [
+      { "family": "Ferreira", "given": "Aurélio Buarque de Holanda" }
+    ],
+    "edition": "5",
+    "publisher": "Positivo",
+    "publisher-place": "Curitiba",
+    "issued": { "date-parts": [[2010]] },
+    "URL": "https://pergamum.ufc.br/pergamum/biblioteca/fotos.php?cod_acervo=171775",
+    "accessed": { "date-parts": [[2019, 2, 12]] }
+  },
+  {
+    "id": "spohr-2010",
+    "type": "book",
+    "title": "A batalha do apocalipse: da queda dos anjos ao crepúsculo do mundo",
+    "author": [
+      { "family": "Spohr", "given": "Eduardo" }
+    ],
+    "publisher": "Verus",
+    "publisher-place": "Campinas",
+    "issued": { "date-parts": [[2010]] },
+    "medium": "E-book"
+  },
+  {
+    "id": "brasil-cgu-2015",
+    "type": "book",
+    "title": "Relatório de gestão: exercício 2014",
+    "author": [
+      { "literal": "BRASIL. Controladoria Geral da União" }
+    ],
+    "publisher": "CGU",
+    "publisher-place": "Brasília, DF",
+    "issued": { "date-parts": [[2015]] },
+    "number-of-pages": "150",
+    "URL": "http://goo.gl/C7lXCw",
+    "accessed": { "date-parts": [[2016, 5, 24]] }
+  },
+  {
+    "id": "muller-1999",
+    "type": "chapter",
+    "title": "O macroeixo São Paulo-Buenos Aires e a gestão territorializada de governos subnacionais",
+    "author": [
+      { "family": "Muller", "given": "Geraldo" }
+    ],
+    "container-title": "Redescobrindo o Brasil: 500 anos depois",
+    "editor": [
+      { "family": "Castro", "given": "Iná Elias de" },
+      { "family": "Miranda", "given": "Mariana" },
+      { "family": "Egler", "given": "Claudio" }
+    ],
+    "publisher": "Bertrand Brasil: FAPERJ",
+    "publisher-place": "Rio de Janeiro",
+    "issued": { "date-parts": [[1999]] },
+    "page": "41-55"
+  },
+  {
+    "id": "barbosa-pinheiro-2004",
+    "type": "chapter",
+    "title": "Introdução",
+    "author": [
+      { "family": "Barbosa", "given": "G. A." },
+      { "family": "Pinheiro", "given": "A. G." }
+    ],
+    "container-title": "Os estudantes de medicina e o ato médico: atitudes e valores que norteiam seu posicionamento",
+    "editor": [
+      { "family": "Pimentel", "given": "A. J. P." },
+      { "family": "Andrade", "given": "E. O." },
+      { "family": "Barbosa", "given": "G. A." }
+    ],
+    "publisher": "Conselho Federal de Medicina",
+    "publisher-place": "Brasília, DF",
+    "issued": { "date-parts": [[2004]] },
+    "page": "25-30"
+  },
+  {
+    "id": "neves-2005",
+    "type": "chapter",
+    "title": "Amebas de vida livre",
+    "author": [
+      { "family": "Neves", "given": "D. P." }
+    ],
+    "container-title": "Parasitologia humana",
+    "container-author": [
+      { "family": "Neves", "given": "D. P." }
+    ],
+    "edition": "11",
+    "publisher": "Atheneu",
+    "publisher-place": "São Paulo",
+    "issued": { "date-parts": [[2005]] },
+    "chapter-number": "16"
+  },
+  {
+    "id": "batuque-2012",
+    "type": "chapter",
+    "title": "BATUQUE",
+    "container-title": "Dicionário do folclore brasileiro",
+    "container-author": [
+      { "family": "Cascudo", "given": "Luis da Câmara" }
+    ],
+    "edition": "12",
+    "publisher": "Global",
+    "publisher-place": "São Paulo",
+    "issued": { "date-parts": [[2012]] },
+    "page": "59"
+  },
+  {
+    "id": "formatacao-2008",
+    "type": "chapter",
+    "title": "FORMATAÇÃO",
+    "container-title": "Dicionário de biblioteconomia e arquivologia",
+    "container-author": [
+      { "family": "Cunha", "given": "Murilo Bastos" },
+      { "family": "Cavalcanti", "given": "Cordélia Robalinho de Oliveira" }
+    ],
+    "publisher": "Briquet de Lemos",
+    "publisher-place": "Brasília, DF",
+    "issued": { "date-parts": [[2008]] },
+    "page": "173"
+  },
+  {
+    "id": "nascimento-artropodes-1998",
+    "type": "chapter",
+    "title": "Morfologia dos artrópodes",
+    "author": [
+      { "family": "Nascimento", "given": "E." }
+    ],
+    "container-title": "Enciclopédia multimídia dos seres vivos",
+    "editor": [
+      { "family": "Castro", "given": "I." }
+    ],
+    "publisher": "Planeta DeAgostini",
+    "publisher-place": "[S. l.]",
+    "issued": { "date-parts": [[1998]] },
+    "medium": "CD-ROM 9"
+  },
+  {
+    "id": "silva-reginaldo-2013",
+    "type": "chapter",
+    "title": "Hilda Hilst no fluxo da consciência: o horizonte estético de contos d'escárnio",
+    "author": [
+      { "family": "Silva", "given": "Reginaldo Oliveira" }
+    ],
+    "container-title": "Uma superfície de gelo ancorada no riso: a atualidade do grotesco em Hilda Hilst",
+    "container-author": [
+      { "family": "Silva", "given": "Reginaldo Oliveira" }
+    ],
+    "publisher": "EDUEPB",
+    "publisher-place": "Campina Grande",
+    "issued": { "date-parts": [[2013]] },
+    "page": "199-292",
+    "URL": "http://books.scielo.org/id/wwfpz",
+    "accessed": { "date-parts": [[2016, 4, 1]] }
+  },
+  {
+    "id": "ufc-bu-identificacao-2017",
+    "type": "chapter",
+    "title": "Identificação da instituição",
+    "author": [
+      { "literal": "UNIVERSIDADE FEDERAL DO CEARÁ. Biblioteca Universitária" }
+    ],
+    "container-title": "Relatório de avaliação dos produtos e serviços oferecidos pelo Sistema de Bibliotecas da Universidade Federal do Ceará: aplicação 03",
+    "container-author": [
+      { "literal": "UNIVERSIDADE FEDERAL DO CEARÁ. Biblioteca Universitária" }
+    ],
+    "publisher": "Biblioteca Universitária",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2017]] },
+    "URL": "http://www.biblioteca.ufc.br/wp-content/uploads/2017/12/rel-avaliacao-servicos-2017.pdf",
+    "accessed": { "date-parts": [[2019, 3, 25]] }
+  },
+  {
+    "id": "benegas-2006",
+    "type": "thesis",
+    "title": "Três ensaios em análise econômica",
+    "author": [
+      { "family": "Benegas", "given": "M." }
+    ],
+    "genre": "Tese (Doutorado em Economia)",
+    "note": "Faculdade de Economia, Administração, Atuária e Contabilidade, Universidade Federal do Ceará",
+    "publisher": "Universidade Federal do Ceará",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2006]] }
+  },
+  {
+    "id": "mayorga-2006",
+    "type": "thesis",
+    "title": "Análise de transmissão de preços do mercado de melão do Brasil",
+    "author": [
+      { "family": "Mayorga", "given": "Rodrigo de Oliveira" }
+    ],
+    "genre": "Dissertação (Mestrado em Economia Rural)",
+    "note": "Centro de Ciências Agrárias, Universidade Federal do Ceará",
+    "publisher": "Universidade Federal do Ceará",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2006]] }
+  },
+  {
+    "id": "lourenco-2018",
+    "type": "thesis",
+    "title": "Proposta de modelo físico-socioambiental para o estudo de bacias hidrográficas semiáridas do nordeste setentrional (Brasil)",
+    "author": [
+      { "family": "Lourenço", "given": "Ronaldo Mendes" }
+    ],
+    "genre": "Tese (Doutorado em Geografia)",
+    "note": "Centro de Ciências, Universidade Federal do Ceará",
+    "publisher": "Universidade Federal do Ceará",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2018]] },
+    "URL": "http://www.repositorio.ufc.br/handle/riufc/39044",
+    "accessed": { "date-parts": [[2019, 2, 13]] }
+  },
+  {
+    "id": "campos-ludmila-2000",
+    "type": "chapter",
+    "title": "Esforço de pesca",
+    "author": [
+      { "family": "Campos", "given": "Ludmila Maria de Araújo" }
+    ],
+    "container-title": "Estudo bioeconômico da pesca da lagosta no nordeste do Brasil: análise estática",
+    "container-author": [
+      { "family": "Campos", "given": "Ludmila Maria de Araújo" }
+    ],
+    "genre": "Dissertação (Mestrado em Desenvolvimento e Meio Ambiente)",
+    "note": "Pró-Reitoria de Pesquisa e Pós-Graduação, Universidade Federal do Ceará",
+    "publisher": "Universidade Federal do Ceará",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2000]] },
+    "page": "12-15"
+  },
+  {
+    "id": "silva-regina-2014",
+    "type": "chapter",
+    "title": "O construto de um Brasil moderno",
+    "author": [
+      { "family": "Silva", "given": "Regina Cláudia Oliveira da" }
+    ],
+    "container-title": "A ação educacional e o legado cultural de Gustavo Barroso para a moderna museologia brasileira",
+    "container-author": [
+      { "family": "Silva", "given": "Regina Cláudia Oliveira da" }
+    ],
+    "genre": "Tese (Doutorado em Educação Brasileira)",
+    "note": "Faculdade de Educação, Universidade Federal do Ceará",
+    "publisher": "Universidade Federal do Ceará",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2014]] },
+    "page": "30-52",
+    "URL": "http://www.repositoriobib.ufc.br/000032/00003234.pdf",
+    "accessed": { "date-parts": [[2019, 4, 12]] }
+  },
+  {
+    "id": "santos-carta-2019",
+    "type": "personal_communication",
+    "title": "Carta para o filho",
+    "author": [
+      { "family": "Santos", "given": "Heitor" }
+    ],
+    "recipient": [
+      { "family": "Silva", "given": "Jefferson Amorim da" }
+    ],
+    "publisher-place": "Caucaia",
+    "issued": { "date-parts": [[2019]] },
+    "note": "1 carta"
+  },
+  {
+    "id": "castro-correspondencia-2019",
+    "type": "personal_communication",
+    "title": "Correspondência",
+    "author": [
+      { "family": "Castro", "given": "Islânia" }
+    ],
+    "recipient": [
+      { "family": "Sales", "given": "Weslayne" }
+    ],
+    "publisher-place": "[S.l.]",
+    "issued": { "date-parts": [[2019]] },
+    "note": "1 bilhete"
+  },
+  {
+    "id": "nascimento-correspondencia-2019",
+    "type": "personal_communication",
+    "title": "Correspondência",
+    "author": [
+      { "family": "Nascimento", "given": "Isabela" }
+    ],
+    "recipient": [
+      { "family": "Pereira", "given": "Anderson" }
+    ],
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2019, 6, 17]] },
+    "note": "1 cartão pessoal"
+  },
+  {
+    "id": "rosa-agradecimento-1958",
+    "type": "personal_communication",
+    "title": "Agradecimento",
+    "author": [
+      { "family": "Rosa", "given": "Guimarães" }
+    ],
+    "recipient": [
+      { "family": "Brandt", "given": "Alice" }
+    ],
+    "publisher-place": "Rio de Janeiro",
+    "issued": { "date-parts": [[1958, 7, 15]] },
+    "note": "1 cartão",
+    "URL": "http://www.babelleiloes.com.br/peca.asp?ID=2636950",
+    "accessed": { "date-parts": [[2019, 6, 18]] }
+  },
+  {
+    "id": "carvalho-poemas-1908",
+    "type": "personal_communication",
+    "title": "Poemas e canções para Euclides da Cunha",
+    "author": [
+      { "family": "Carvalho", "given": "Vicente de" }
+    ],
+    "recipient": [
+      { "family": "Cunha", "given": "Euclides da" }
+    ],
+    "publisher-place": "São Paulo",
+    "issued": { "date-parts": [[1908, 8, 31]] },
+    "note": "1 carta",
+    "URL": "https://www.correioims.com.br/carta/poemas-e-cancoes-para-euclides-da-cunha/",
+    "accessed": { "date-parts": [[2019, 6, 17]] }
+  },
+  {
+    "id": "rev-bras-odontologia",
+    "type": "periodical",
+    "title": "REVISTA BRASILEIRA DE ODONTOLOGIA",
+    "publisher": "Associação Brasileira de Odontologia",
+    "publisher-place": "Rio de Janeiro",
+    "issued": { "date-parts": [[1943]] },
+    "note": "1943-2010",
+    "ISSN": "0034-7272"
+  },
+  {
+    "id": "rev-bras-plantas-medicinais",
+    "type": "periodical",
+    "title": "REVISTA BRASILEIRA DE PLANTAS MEDICINAIS",
+    "publisher": "Fundação do Instituto de Biociências",
+    "publisher-place": "Botucatu",
+    "issued": { "date-parts": [[1999]] },
+    "note": "1999-",
+    "ISSN": "1516-0572"
+  },
+  {
+    "id": "o-povo-periodico",
+    "type": "periodical",
+    "title": "O POVO",
+    "publisher": "Grupo Comunicação O Povo",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[1928]] },
+    "note": "1928-",
+    "ISSN": "1517-6819"
+  },
+  {
+    "id": "encontros-bibli",
+    "type": "periodical",
+    "title": "ENCONTROS BIBLI: Revista Eletrônica de Biblioteconomia e Ciência da Informação",
+    "publisher": "UFSC",
+    "publisher-place": "Florianópolis",
+    "issued": { "date-parts": [[1996]] },
+    "note": "1996-",
+    "ISSN": "1518-2924",
+    "URL": "https://periodicos.ufsc.br/index.php/eb/index",
+    "accessed": { "date-parts": [[2019, 2, 11]] }
+  },
+  {
+    "id": "rev-bras-politica-internacional",
+    "type": "periodical",
+    "title": "REVISTA BRASILEIRA DE POLÍTICA INTERNACIONAL",
+    "publisher": "Instituto Brasileiro de Relações Internacionais",
+    "publisher-place": "Rio de Janeiro",
+    "issued": { "date-parts": [[1958]] },
+    "note": "1958- . 1997-2007",
+    "ISSN": "0034-7329"
+  },
+  {
+    "id": "rev-bras-enfermagem",
+    "type": "periodical",
+    "title": "REVISTA BRASILEIRA DE ENFERMAGEM",
+    "publisher": "Associação Brasileira de Enfermagem",
+    "publisher-place": "Brasília, DF",
+    "issued": { "date-parts": [[1955]] },
+    "note": "1955- . 2010-2015",
+    "ISSN": "1984-0446",
+    "URL": "http://www.scielo.br/scielo.php?script=sci_issues&pid=0034-7167&lng=en&nrm=iso/",
+    "accessed": { "date-parts": [[2019, 5, 18]] }
+  },
+  {
+    "id": "melhores-universidades-2011",
+    "type": "article-journal",
+    "title": "AS MELHORES universidades do Brasil",
+    "container-title": "Gestão Universitária",
+    "publisher-place": "São Paulo",
+    "volume": "2",
+    "issued": { "date-parts": [[2011]] }
+  },
+  {
+    "id": "rev-cfmv-2018",
+    "type": "periodical",
+    "title": "REVISTA [DO] CONSELHO FEDERAL DE MEDICINA VETERINÁRIA",
+    "publisher": "CRVM",
+    "publisher-place": "Brasília, DF",
+    "volume": "24",
+    "issue": "77",
+    "issued": { "date-parts": [[2018]] },
+    "note": "ano 24, n. 77, abr./jun. 2018",
+    "URL": "http://certidao.cfmv.gov.br/revistas/edicao77.pdf",
+    "accessed": { "date-parts": [[2019, 2, 14]] }
+  },
+  {
+    "id": "informacao-mediacao-2019",
+    "type": "article-journal",
+    "title": "INFORMAÇÃO mediação cultura",
+    "container-title": "Perspectivas em Ciência da Informação",
+    "publisher-place": "Belo Horizonte",
+    "publisher": "Ed. UFMG",
+    "volume": "24",
+    "issued": { "date-parts": [[2019, 3]] },
+    "note": "Número especial",
+    "ISSN": "1981-5344",
+    "URL": "http://portaldeperiodicos.eci.ufmg.br/index.php/pci/issue/view/188",
+    "accessed": { "date-parts": [[2019, 8, 13]] }
+  },
+  {
+    "id": "sertao-ferro-fogo-2014",
+    "type": "article-newspaper",
+    "title": "SERTÃO a ferro e fogo: marcas de gado e gente",
+    "container-title": "O Povo",
+    "publisher": "Grupo de Comunicação O Povo",
+    "publisher-place": "Fortaleza",
+    "edition": "28.918",
+    "issued": { "date-parts": [[2014, 8, 12]] },
+    "note": "Caderno especial",
+    "URL": "https://digital.opovo.com.br/sertaoaferroefogo",
+    "accessed": { "date-parts": [[2019, 8, 21]] }
+  },
+  {
+    "id": "hoffmann-2006",
+    "type": "article-journal",
+    "title": "A autoridade e a questão do pai",
+    "author": [
+      { "family": "Hoffmann", "given": "C." }
+    ],
+    "container-title": "Ágora: estudos em teoria psicanalítica",
+    "publisher-place": "Rio de Janeiro",
+    "volume": "9",
+    "issue": "2",
+    "page": "169-176",
+    "issued": { "date-parts": [[2006]] }
+  },
+  {
+    "id": "nunez-barrios-2005",
+    "type": "article-journal",
+    "title": "Stress hídrico e a distribuição de características vegetativas e reprodutivas de um cultivo de feijão",
+    "author": [
+      { "family": "Nunez Barrios", "given": "A." },
+      { "family": "Hoogenboom", "given": "G." },
+      { "family": "Nesmith", "given": "D. S." }
+    ],
+    "container-title": "Sci. Agric.",
+    "publisher-place": "Piracicaba",
+    "volume": "62",
+    "issue": "1",
+    "page": "18-22",
+    "issued": { "date-parts": [[2005, 1]] }
+  },
+  {
+    "id": "rees-etal-2011",
+    "type": "article-journal",
+    "title": "Advancements in web-database applications for rabies surveillance",
+    "author": [
+      { "family": "Rees", "given": "Erin E." }
+    ],
+    "container-title": "International Journal of Health Geographics",
+    "publisher-place": "London",
+    "volume": "10",
+    "issue": "1",
+    "page": "48",
+    "issued": { "date-parts": [[2011]] }
+  },
+  {
+    "id": "favoretto-2013",
+    "type": "article-journal",
+    "title": "O surgimento de espécies silvestres como fonte de infecção por raiva humana no Brasil",
+    "author": [
+      { "family": "Favoretto", "given": "S. R." },
+      { "family": "Matos", "given": "C. C." },
+      { "family": "Matos", "given": "C. A." }
+    ],
+    "container-title": "Epideimol. Infect.",
+    "publisher-place": "Cambridge",
+    "volume": "141",
+    "issue": "7",
+    "page": "1552-1561",
+    "issued": { "date-parts": [[2013]] }
+  },
+  {
+    "id": "lavalle-ernesto-2015",
+    "type": "article-journal",
+    "title": "Representación y participación en la crítica democrática",
+    "author": [
+      { "family": "Lavalle", "given": "Adrián Gurza" },
+      { "family": "Ernesto Isunza", "given": "Vera" }
+    ],
+    "container-title": "Desacatos",
+    "publisher-place": "[Ciudad del México]",
+    "volume": "49",
+    "page": "10-27",
+    "issued": { "date-parts": [[2015]] },
+    "URL": "https://desacatos.ciesas.edu.mx/index.php/Desacatos/article/view/150",
+    "accessed": { "date-parts": [[2019, 7, 31]] }
+  },
+  {
+    "id": "aconteceu-cem-anos-2022",
+    "type": "article-journal",
+    "title": "ACONTECEU há cem anos",
+    "container-title": "Revista Marítima Brasileira",
+    "publisher-place": "Rio de Janeiro",
+    "volume": "142",
+    "issue": "4/6",
+    "page": "247-250",
+    "issued": { "date-parts": [[2022]] },
+    "URL": "http://www.revistamaritima.com.br/revistas/o-brasil-no-artico",
+    "accessed": { "date-parts": [[2022, 8, 11]] }
+  },
+  {
+    "id": "souza-2017",
+    "type": "article-journal",
+    "title": "Impactos da gestão de aulas baseadas em problemas verbais de Matemática sobre a aprendizagem",
+    "author": [
+      { "family": "Souza", "given": "Maria Alice Veiga Ferreira de" }
+    ],
+    "container-title": "Educar em Revista",
+    "publisher-place": "Curitiba",
+    "volume": "33",
+    "issue": "64",
+    "page": "231-246",
+    "issued": { "date-parts": [[2017]] },
+    "DOI": "10.1590-0104-4060.46978",
+    "URL": "https://revistas.ufpr.br/educar/article/view/46978/32186",
+    "accessed": { "date-parts": [[2019, 2, 14]] }
+  },
+  {
+    "id": "barros-luana-2019",
+    "type": "article-newspaper",
+    "title": "STF deve concluir hoje julgamento sobre criminalização da homofobia: duas ações tratam da omissão do Congresso Nacional sobre o tema e começaram a ser discutidas ontem",
+    "author": [
+      { "family": "Barros", "given": "Luana" }
+    ],
+    "container-title": "O Povo",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2019, 2, 14]] },
+    "volume": "43",
+    "issue": "30.547",
+    "section": "Caderno política",
+    "page": "11"
+  },
+  {
+    "id": "holanda-carlos-2019",
+    "type": "article-newspaper",
+    "title": "Emendas continuam a ser instrumentos de barganha",
+    "author": [
+      { "family": "Holanda", "given": "Carlos" }
+    ],
+    "container-title": "O Povo",
+    "publisher-place": "Fortaleza",
+    "volume": "92",
+    "issue": "30.730",
+    "page": "20",
+    "issued": { "date-parts": [[2019, 8, 18]] }
+  },
+  {
+    "id": "boechat-2019",
+    "type": "article-newspaper",
+    "title": "BOECHAT: Anac suspende empresa dona do helicóptero",
+    "container-title": "O Estado",
+    "publisher-place": "Fortaleza",
+    "volume": "82",
+    "issue": "23.475",
+    "issued": { "date-parts": [[2019, 2, 14]] },
+    "section": "Caderno Nacional",
+    "page": "6",
+    "URL": "http://www.oestadoce.com.br/digital",
+    "accessed": { "date-parts": [[2019, 2, 14]] }
+  },
+  {
+    "id": "congresso-ecologia-2003",
+    "type": "book",
+    "title": "Anais [...]",
+    "author": [
+      { "literal": "CONGRESSO DE ECOLOGIA DO BRASIL, 6., 2003, Fortaleza" }
+    ],
+    "publisher": "UFC",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2003]] },
+    "event-title": "Congresso de Ecologia do Brasil"
+  },
+  {
+    "id": "congresso-medicina-popular-2011",
+    "type": "book",
+    "title": "Anais [...]",
+    "author": [
+      { "literal": "CONGRESSO DE MEDICINA POPULAR VILAR DE PERDIZES, 25., 2011, Montalegre" }
+    ],
+    "publisher": "[s. n.]",
+    "publisher-place": "Montalegre",
+    "issued": { "date-parts": [[2011]] },
+    "event-title": "Congresso de Medicina Popular Vilar de Perdizes",
+    "URL": "http://www.cm-montalegre.pt/showPG.php?Id=320",
+    "accessed": { "date-parts": [[2016, 4, 8]] }
+  },
+  {
+    "id": "seminario-historia-literatura-2006",
+    "type": "book",
+    "title": "Anais [...]",
+    "author": [
+      { "literal": "SEMINÁRIO INTERNACIONAL DE HISTÓRIA DA LITERATURA, 6., 2005, Porto Alegre" }
+    ],
+    "container-title": "Cadernos do Centro de Pesquisas Literárias da PUCRS",
+    "publisher": "Ed. PUCRS",
+    "publisher-place": "Porto Alegre",
+    "volume": "12",
+    "issue": "1",
+    "issued": { "date-parts": [[2006]] },
+    "event-title": "Seminário Internacional de História da Literatura"
+  },
+  {
+    "id": "congresso-educacao-2018",
+    "type": "book",
+    "title": "Anais [...]",
+    "author": [
+      { "literal": "CONGRESSO NACIONAL DE EDUCAÇÃO, 5., 2018, Olinda" }
+    ],
+    "container-title": "Anais CONEDU",
+    "publisher": "Realize",
+    "publisher-place": "Campina Grande",
+    "volume": "5",
+    "issued": { "date-parts": [[2018]] },
+    "event-title": "Congresso Nacional de Educação",
+    "URL": "https://www.editorarealize.com.br/revistas/conedu/anaisanteriores.php",
+    "accessed": { "date-parts": [[2019, 6, 17]] }
+  },
+  {
+    "id": "dias-2004",
+    "type": "paper-conference",
+    "title": "Parque Nacional do Pico da Neblina: conservação, pesquisa e divulgação",
+    "author": [
+      { "family": "Dias", "given": "R. L." }
+    ],
+    "event-title": "Congresso Brasileiro de Unidades de Conservação, 4., 2004, Curitiba",
+    "container-title": "Anais [...]",
+    "publisher": "Fundação Boticário de Proteção à Natureza",
+    "publisher-place": "Curitiba",
+    "issued": { "date-parts": [[2004]] },
+    "page": "45-54"
+  },
+  {
+    "id": "lima-cm-2003",
+    "type": "paper-conference",
+    "title": "Estudos etnobotânicos na Serra de Maranguape, CE",
+    "author": [
+      { "family": "Lima", "given": "C. M." }
+    ],
+    "event-title": "Congresso de Ecologia do Brasil, 6., 2003, Fortaleza",
+    "container-title": "Anais [...]",
+    "publisher": "UFC",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2003]] },
+    "page": "419-420"
+  },
+  {
+    "id": "bugarim-barroso-2018",
+    "type": "paper-conference",
+    "title": "A compreensão dos assurinis sobre lazer referente aos jogos dos povos indígenas",
+    "author": [
+      { "family": "Bugarim", "given": "Jonatha Pereira" },
+      { "family": "Barroso", "given": "Simone Pompeu" }
+    ],
+    "event-title": "Congresso Nacional de Educação Física, Saúde e Cultural Corporal, 9., 2018, Recife",
+    "container-title": "Anais [...]",
+    "publisher": "Even3",
+    "publisher-place": "Recife",
+    "issued": { "date-parts": [[2018]] },
+    "page": "1-2",
+    "URL": "http://abre.ai/aiG9",
+    "accessed": { "date-parts": [[2019, 6, 17]] }
+  },
+  {
+    "id": "serra-pinto-2017",
+    "type": "paper-conference",
+    "title": "Placas indicativas como fontes de informação: a percepção dos usuários de ônibus do Terminal de Integração da Parangaba",
+    "author": [
+      { "family": "Serra", "given": "Jackson Sousa" },
+      { "family": "Pinto", "given": "Virgínia Bentes" }
+    ],
+    "event-title": "Encontro de Estudos de Uso e Usuários da Informação, 1., 2017, Fortaleza",
+    "container-title": "Anais [...]",
+    "publisher": "UFC",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2017]] },
+    "page": "1-18",
+    "URL": "http://www.eneu2017.ufc.br/index.php/eneu/1/paper/viewFile/13/37",
+    "accessed": { "date-parts": [[2020, 9, 10]] }
+  },
+  {
+    "id": "abreu-2006",
+    "type": "paper-conference",
+    "title": "O perigo dos livros",
+    "author": [
+      { "family": "Abreu", "given": "Márcia" }
+    ],
+    "container-title": "Cadernos do Centro de Pesquisas Literárias da PUCRS",
+    "publisher-place": "Porto Alegre",
+    "volume": "12",
+    "issue": "1",
+    "page": "41-51",
+    "issued": { "date-parts": [[2006]] },
+    "event-title": "Seminário Internacional de História da Literatura, 6., 2005, Porto Alegre"
+  },
+  {
+    "id": "calazans-elias-2018",
+    "type": "paper-conference",
+    "title": "Análise de intervenções farmacêuticas em um hospital oncológico",
+    "author": [
+      { "family": "Calazans", "given": "Jonas de Almeida" },
+      { "family": "Elias", "given": "Sabrina Calil" }
+    ],
+    "container-title": "Revista Brasileira de Cancerologia",
+    "publisher-place": "Rio de Janeiro",
+    "volume": "64",
+    "issue": "2",
+    "page": "19",
+    "issued": { "date-parts": [[2018]] },
+    "event-title": "Congresso de Farmácia Hospitalar em Oncologia do INCA, 6., 2018, Rio de Janeiro",
+    "URL": "https://rbc.inca.gov.br/revista/index.php/revista/article/view/330/221",
+    "accessed": { "date-parts": [[2019, 7, 25]] }
+  },
+  {
+    "id": "saraiva-2017",
+    "type": "paper-conference",
+    "title": "Organização do acervo da Biblioteca Central do Campus do Pici",
+    "author": [
+      { "family": "Saraiva", "given": "Maria Vitória Ferreira" },
+      { "family": "Silva", "given": "Maria de Fátima" },
+      { "family": "Nascimento", "given": "Regiane Lima" }
+    ],
+    "issued": { "date-parts": [[2017]] },
+    "publisher-place": "Fortaleza",
+    "event-title": "Encontro de Iniciação Acadêmica da Universidade Federal do Ceará, 2., 2017, Fortaleza",
+    "note": "Trabalho apresentado, não publicado"
+  },
+  {
+    "id": "schroeder-credle-1991",
+    "type": "patent",
+    "title": "Aparelho para servir bebidas e processo para converter um aparelho para servir bebidas",
+    "author": [
+      { "family": "Schroeder", "given": "Alfred A." },
+      { "family": "Credle", "given": "William S." }
+    ],
+    "authority": "BR",
+    "number": "PI 8706898-2 B1",
+    "submitted": { "date-parts": [[1988, 3, 29]] },
+    "issued": { "date-parts": [[1991, 10, 29]] },
+    "note": "Depositante: The Coca-Cola Company",
+    "publisher": "The Coca-Cola Company",
+    "publisher-place": "BR"
+  },
+  {
+    "id": "araujo-patente-2009",
+    "type": "patent",
+    "title": "Processo para o preparo do adubo de caranguejo",
+    "author": [
+      { "family": "Araújo", "given": "Francisco José Freire de" }
+    ],
+    "authority": "BR",
+    "number": "PI0704286-8 A2",
+    "submitted": { "date-parts": [[2007, 11, 9]] },
+    "issued": { "date-parts": [[2009, 7, 7]] },
+    "note": "Depositante: Universidade Federal do Ceará",
+    "publisher": "Universidade Federal do Ceará",
+    "publisher-place": "BR",
+    "URL": "https://busca.inpi.gov.br/pePI/servlet/PatenteServletController?Action=detail&CodPedido=752455&SearchParameter=PI%200704286-8%20%20%20%20%20%20&Resumo=&Titulo=",
+    "accessed": { "date-parts": [[2023, 11, 27]] }
+  },
+  {
+    "id": "schwindt-foye-2019",
+    "type": "patent",
+    "title": "Método e sistema para determinar degradação em desempenho de um dispositivo eletrônico conectado a uma rede de comunicação para um veículo aéreo",
+    "author": [
+      { "family": "Schwindt", "given": "Stefan Alexander" },
+      { "family": "Foye", "given": "Barry" }
+    ],
+    "authority": "BR",
+    "number": "10 2018 013727 1 A2",
+    "submitted": { "date-parts": [[2018, 7, 4]] },
+    "issued": { "date-parts": [[2019, 1, 22]] },
+    "note": "Depositante: GE Aviation Systems Limited (GB). Procurador: Jacques Labruine",
+    "publisher": "GE Aviation Systems Limited",
+    "publisher-place": "BR",
+    "URL": "https://busca.inpi.gov.br/pePI/servlet/PatenteServletController?Action=detail&CodPedido=1480947&SearchParameter=BR%2010%202018%20013727%201%20%20%20%20%20%20&Resumo=&Titulo=",
+    "accessed": { "date-parts": [[2023, 11, 27]] }
+  },
+  {
+    "id": "brasil-constituicao-2003",
+    "type": "legislation",
+    "title": "Constituição da República Federativa do Brasil: promulgada em 5 de outubro de 1988, atualizada até a Emenda Constitucional nº 39, de 19 de dezembro de 2002",
+    "author": [
+      { "literal": "BRASIL" }
+    ],
+    "edition": "31",
+    "publisher": "Saraiva",
+    "publisher-place": "São Paulo",
+    "issued": { "date-parts": [[2003]] },
+    "note": "[Constituição (1988)]"
+  },
+  {
+    "id": "brasil-decreto-6063-2007",
+    "type": "legislation",
+    "title": "Decreto n° 6.063, de 20 de março de 2007",
+    "author": [
+      { "literal": "BRASIL" }
+    ],
+    "note": "Regulamenta no âmbito federal, dispositivos da Lei n° 11.284 de 2 de março de 2006, que dispõe sobre gestão de florestas públicas para a produção sustentável, e dá outras providências",
+    "container-title": "Diário Oficial [da] República Federativa do Brasil",
+    "section": "Seção 1",
+    "page": "1",
+    "publisher-place": "Brasília, DF",
+    "issued": { "date-parts": [[2007, 3, 21]] }
+  },
+  {
+    "id": "brasil-codigo-civil-2005",
+    "type": "legislation",
+    "title": "Código civil",
+    "author": [
+      { "literal": "BRASIL" }
+    ],
+    "edition": "46",
+    "publisher": "Saraiva",
+    "publisher-place": "São Paulo",
+    "issued": { "date-parts": [[2005]] }
+  },
+  {
+    "id": "fortaleza-lei-10851-2019",
+    "type": "legislation",
+    "title": "Lei nº 10.851, de 02 de janeiro de 2019",
+    "author": [
+      { "literal": "FORTALEZA" }
+    ],
+    "note": "Institui a Política Pública e Programa de Conscientização do Uso Responsável de Água Potável no município de Fortaleza e dá outras providências",
+    "container-title": "Diário Oficial do Município",
+    "publisher-place": "Fortaleza",
+    "issue": "16.436",
+    "page": "1",
+    "issued": { "date-parts": [[2019, 2, 1]] },
+    "URL": "http://apps.fortaleza.ce.gov.br/diariooficial/download-diario.php?objectId=workspace://SpacesStore/d454a4f9-8f27-4483-816d-6bbaee1a7266;1.0&numero=16436",
+    "accessed": { "date-parts": [[2019, 1, 25]] }
+  },
+  {
+    "id": "brasil-lei-12305-2010",
+    "type": "legislation",
+    "title": "Lei nº 12.305, de 2 de agosto de 2010",
+    "author": [
+      { "literal": "BRASIL" }
+    ],
+    "note": "Institui a Política Nacional de Resíduos Sólidos; altera a Lei nº 9.605, de 12 de fevereiro de 1998; e dá outras providências",
+    "publisher": "Casa Civil",
+    "publisher-place": "Brasília, DF",
+    "issued": { "date-parts": [[2010]] },
+    "URL": "http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12305.htm",
+    "accessed": { "date-parts": [[2019, 2, 13]] }
+  },
+  {
+    "id": "brasil-stj-agravo-2006",
+    "type": "legal_case",
+    "title": "Agravo regimental de instrumento n° 612.097 - RS (2004.0074630-2)",
+    "author": [
+      { "literal": "BRASIL. Superior Tribunal de Justiça" }
+    ],
+    "authority": "Superior Tribunal de Justiça",
+    "note": "Agravantes: Adroaldo Lemos Guerreiro e outro. Advogados: César Augusto Bier e outro e Maria Eloísa da Costa. Agravado: Banco do Brasil S/A. Advogados: Magda Montenegro e Rosella Horst e outros. Relator: Ministro Carlos Alberto Menezes Direito",
+    "container-title": "Lex: jurisprudência do STJ e Tribunais Regionais Federais",
+    "publisher-place": "São Paulo",
+    "volume": "18",
+    "issue": "205",
+    "page": "23-27",
+    "issued": { "date-parts": [[2006, 5]] }
+  },
+  {
+    "id": "brasil-stf-sumula-14-1994",
+    "type": "legal_case",
+    "title": "Súmula n° 14",
+    "author": [
+      { "literal": "BRASIL. Supremo Tribunal Federal" }
+    ],
+    "authority": "Supremo Tribunal Federal",
+    "container-title": "Súmulas",
+    "publisher": "Associação dos Advogados do Brasil",
+    "publisher-place": "São Paulo",
+    "issued": { "date-parts": [[1994]] },
+    "page": "16"
+  },
+  {
+    "id": "brasil-stf-mandado-32941-2015",
+    "type": "legal_case",
+    "title": "Mandado de Segurança nº 32.941",
+    "author": [
+      { "literal": "BRASIL. Supremo Tribunal Federal" }
+    ],
+    "authority": "Supremo Tribunal Federal",
+    "note": "Relator: Ministro Marcos Aurélio",
+    "container-title": "Diário da Justiça Eletrônico",
+    "publisher-place": "Brasília, DF",
+    "issue": "203",
+    "page": "28",
+    "issued": { "date-parts": [[2015, 8, 18]] },
+    "URL": "https://www.stf.jus.br/arquivo/djEletronico/DJE_20151008_203.pdf",
+    "accessed": { "date-parts": [[2020, 9, 8]] }
+  },
+  {
+    "id": "brasil-regulamento-beneficios-1999",
+    "type": "legal_case",
+    "title": "Regulamento dos benefícios da previdência social",
+    "author": [
+      { "literal": "BRASIL" }
+    ],
+    "container-title": "SISLEX: sistema de legislação, jurisprudência e pareceres da previdência e assistência social",
+    "publisher": "DATAPREV",
+    "publisher-place": "[S. l.]",
+    "issued": { "date-parts": [[1999]] },
+    "medium": "1 CD-ROM"
+  },
+  {
+    "id": "ufc-portaria-5046-2015",
+    "type": "legislation",
+    "title": "Portaria nº 5046, de 07 de dezembro de 2015",
+    "author": [
+      { "literal": "UNIVERSIDADE FEDERAL DO CEARÁ. Pró-Reitoria de Gestão de Pessoas" }
+    ],
+    "publisher": "UFC",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2015]] }
+  },
+  {
+    "id": "ufc-regimento-geral-2018",
+    "type": "legislation",
+    "title": "Regimento geral",
+    "author": [
+      { "literal": "UNIVERSIDADE FEDERAL DO CEARÁ" }
+    ],
+    "publisher": "UFC",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2018]] }
+  },
+  {
+    "id": "asbran-parecer-2019",
+    "type": "legislation",
+    "title": "Parecer técnico nº 01/2019 de 05 de fevereiro de 2019",
+    "author": [
+      { "literal": "ASSOCIAÇÃO BRASILEIRA DE NUTRIÇÃO" }
+    ],
+    "publisher": "ASBRAN",
+    "publisher-place": "Brasília, DF",
+    "issued": { "date-parts": [[2019]] },
+    "URL": "http://www.asbran.org.br/arquivos/parecerTecnicoJI.pdf",
+    "accessed": { "date-parts": [[2019, 2, 13]] }
+  },
+  {
+    "id": "ceara-tj-portaria-805-2011",
+    "type": "legislation",
+    "title": "Portaria nº 805 de 13 de junho de 2011",
+    "author": [
+      { "literal": "CEARÁ. Tribunal de Justiça" }
+    ],
+    "note": "Resolve determinar que o expediente do dia 14 de junho de 2011 seja encerrado às 15:00, em todas as unidades do Tribunal de Justiça",
+    "container-title": "Diário da Justiça: seção 1",
+    "publisher-place": "Fortaleza",
+    "page": "2",
+    "issued": { "date-parts": [[2011, 6, 15]] },
+    "URL": "http://twixar.me/cJs1",
+    "accessed": { "date-parts": [[2011, 6, 24]] }
+  },
+  {
+    "id": "fortaleza-certidao-nascimento-1997",
+    "type": "document",
+    "title": "Certidão de nascimento [de] Iago Moura e Moreira",
+    "author": [
+      { "literal": "FORTALEZA. Cartório de Registro Civil das Pessoas Naturais do 1º Subdistrito de Fortaleza" }
+    ],
+    "issued": { "date-parts": [[1997, 9, 28]] },
+    "note": "Registro em: 28 set. 1997"
+  },
+  {
+    "id": "sao-paulo-rg-2015",
+    "type": "document",
+    "title": "Registro geral [de] Cravo do Lírio Pelópedas",
+    "author": [
+      { "literal": "SÃO PAULO. Secretaria da Segurança Pública" }
+    ],
+    "issued": { "date-parts": [[2015, 2, 28]] },
+    "note": "Registro em: 31 fev. 2015",
+    "URL": "https://www.sofazquemsabe.com/2012/07/carteira-de-identidade-ou-rg-passo.html",
+    "accessed": { "date-parts": [[2019, 7, 29]] }
+  },
+  {
+    "id": "serra-talhada-certidao-1900",
+    "type": "document",
+    "title": "Certidão de nascimento [de] Virgulino Ferreira da Silva",
+    "author": [
+      { "literal": "SERRA TALHADA. Cartório de Ofício de Registro Civil das Pessoas Naturais do Distrito de Tauapiranga" }
+    ],
+    "issued": { "date-parts": [[1900, 8, 12]] },
+    "note": "Registro em: 12 ago. 1900",
+    "URL": "http://newtonthaumaturgo.com/2009/09/certidao-de-nascimento-de-lampiao.html",
+    "accessed": { "date-parts": [[2019, 7, 24]] }
+  },
+  {
+    "id": "alzheimer-2011",
+    "type": "motion_picture",
+    "title": "ALZHEIMER: mudanças na comunicação e no comportamento",
+    "director": [
+      { "family": "Jessouroun", "given": "Thereza" }
+    ],
+    "publisher": "Kino Filmes",
+    "publisher-place": "[Rio de Janeiro]",
+    "issued": { "date-parts": [[2011]] },
+    "medium": "1 DVD (26 min)"
+  },
+  {
+    "id": "game-of-thrones-2012",
+    "type": "motion_picture",
+    "title": "GAME of thrones",
+    "author": [
+      { "family": "Benoff", "given": "David" },
+      { "family": "Weiss", "given": "D. B." }
+    ],
+    "publisher": "HBO",
+    "publisher-place": "New York",
+    "issued": { "date-parts": [[2012]] },
+    "medium": "5 discos"
+  },
+  {
+    "id": "tesouro-direto-2018",
+    "type": "motion_picture",
+    "title": "TESOURO direto: 5 passos práticos para investir todo mês!",
+    "publisher-place": "[S. l.]",
+    "publisher": "[s. n.]",
+    "issued": { "date-parts": [[2018]] },
+    "medium": "1 vídeo (11 min)",
+    "URL": "https://www.youtube.com/watch?v=71WEvV8s46k",
+    "accessed": { "date-parts": [[2019, 8, 22]] }
+  },
+  {
+    "id": "tim-maia-2007",
+    "type": "motion_picture",
+    "title": "TIM Maia in concert",
+    "author": [
+      { "family": "Maia", "given": "Tim" }
+    ],
+    "publisher": "Pólo Industrial de Manaus",
+    "publisher-place": "Manaus",
+    "issued": { "date-parts": [[2007]] },
+    "medium": "1 DVD"
+  },
+  {
+    "id": "inverno-game-thrones-2012",
+    "type": "chapter",
+    "title": "O INVERNO está para chegar",
+    "author": [
+      { "family": "Van Patten", "given": "Tim" }
+    ],
+    "container-title": "GAME of thrones",
+    "note": "Produção: David Benoff; D. B. Weiss. Disco 1, episódio 1",
+    "publisher": "HBO",
+    "publisher-place": "New York",
+    "issued": { "date-parts": [[2012]] }
+  },
+  {
+    "id": "brasilizacao-2006",
+    "type": "song",
+    "title": "BRASILIZAÇÃO",
+    "author": [
+      { "family": "Canário", "given": "Anna" }
+    ],
+    "publisher": "Estúdio Santa Música",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2006]] },
+    "medium": "1 CD"
+  },
+  {
+    "id": "cantando-coisas-2007",
+    "type": "song",
+    "title": "CANTANDO coisas de cá",
+    "author": [
+      { "family": "Angélica", "given": "Joana" }
+    ],
+    "publisher": "Radiadora Cultural",
+    "publisher-place": "[Fortaleza]",
+    "issued": { "date-parts": [[2007]] },
+    "medium": "1 CD"
+  },
+  {
+    "id": "flor-paisagem-2007",
+    "type": "song",
+    "title": "Flor da paisagem",
+    "author": [
+      { "family": "Angélica", "given": "Joana" }
+    ],
+    "composer": [
+      { "family": "Recife", "given": "Robertinho de" },
+      { "family": "Nilo", "given": "Fausto" }
+    ],
+    "container-title": "CANTANDO coisas de cá",
+    "publisher": "Radiadora Cultural",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2007]] },
+    "medium": "1 CD, faixa 8"
+  },
+  {
+    "id": "penas-tie-1998",
+    "type": "song",
+    "title": "Penas do tiê",
+    "author": [
+      { "family": "Caymmi", "given": "Nana" }
+    ],
+    "composer": [
+      { "family": "Tavares", "given": "Hekel" }
+    ],
+    "container-title": "AMIGOS e canções",
+    "publisher": "BMG",
+    "publisher-place": "[S. l.]",
+    "issued": { "date-parts": [[1998]] },
+    "medium": "Disco 1, faixa 9",
+    "note": "Intérpretes: Raimundo Fagner et al."
+  },
+  {
+    "id": "forca-nunca-seca-1999",
+    "type": "song",
+    "title": "A FORÇA que nunca seca",
+    "author": [
+      { "family": "Bethânia", "given": "Maria" }
+    ],
+    "composer": [
+      { "family": "César", "given": "Chico" },
+      { "family": "Mata", "given": "Vanessa da" }
+    ],
+    "container-title": "A FORÇA que nunca seca",
+    "publisher": "Sony",
+    "publisher-place": "Rio de Janeiro",
+    "issued": { "date-parts": [[1999]] },
+    "medium": "1 CD, faixa 2"
+  },
+  {
+    "id": "araujo-partitura-1870",
+    "type": "musical_score",
+    "title": "A brilhante aurora: mazurka de salão",
+    "author": [
+      { "family": "Araújo", "given": "João Gomes de" }
+    ],
+    "note": "Piano solo",
+    "publisher": "Narciso & Arthur Napoleão",
+    "publisher-place": "Rio de Janeiro",
+    "issued": { "date-parts": [[1870]] },
+    "medium": "1 partitura"
+  },
+  {
+    "id": "villa-lobos-1916",
+    "type": "musical_score",
+    "title": "Coleções de quartetos modernos",
+    "author": [
+      { "family": "Villa-Lobos", "given": "H." }
+    ],
+    "note": "Violoncelo",
+    "publisher": "Universal",
+    "publisher-place": "Rio de Janeiro",
+    "issued": { "date-parts": [[1916]] },
+    "medium": "1 partitura"
+  },
+  {
+    "id": "gonzaga-noiva-1901",
+    "type": "musical_score",
+    "title": "A noiva",
+    "author": [
+      { "family": "Gonzaga", "given": "Chiquinha" }
+    ],
+    "note": "Piano",
+    "publisher": "[s. n.]",
+    "publisher-place": "[S. l.]",
+    "issued": { "date-parts": [[1901]] },
+    "medium": "1 partitura",
+    "URL": "http://www.chiquinhagonzaga.com/acervo/partituras/a-noite_piano.pdf",
+    "accessed": { "date-parts": [[2019, 7, 30]] }
+  },
+  {
+    "id": "campos-roberta-2015",
+    "type": "musical_score",
+    "title": "De janeiro a janeiro",
+    "author": [
+      { "family": "Campos", "given": "Roberta" }
+    ],
+    "note": "Violão",
+    "publisher": "Super Partituras",
+    "publisher-place": "[S. l.]",
+    "issued": { "date-parts": [[2015]] },
+    "medium": "1 partitura",
+    "URL": "https://www.superpartituras.com.br/nando-reis/de-janeiro-a-janeiro-v2",
+    "accessed": { "date-parts": [[2019, 7, 30]] }
+  },
+  {
+    "id": "portinari-cafe-1935",
+    "type": "graphic",
+    "title": "Café",
+    "author": [
+      { "family": "Portinari", "given": "C." }
+    ],
+    "issued": { "date-parts": [[1935]] },
+    "medium": "1 reprodução, óleo sobre tela, 130 x 195 cm"
+  },
+  {
+    "id": "nascimento-bct-2011",
+    "type": "graphic",
+    "title": "Biblioteca de Ciências e Tecnologia",
+    "author": [
+      { "family": "Nascimento", "given": "I." }
+    ],
+    "issued": { "date-parts": [[2011]] },
+    "medium": "1 fotografia, color., 17,5 x 13 cm"
+  },
+  {
+    "id": "mateus-1997",
+    "type": "graphic",
+    "title": "Sem título",
+    "author": [
+      { "family": "Mateus" }
+    ],
+    "issued": { "date-parts": [[1997]] },
+    "medium": "1 original de arte, óleo sobre tela"
+  },
+  {
+    "id": "moreira-calo-2016",
+    "type": "graphic",
+    "title": "Caló montada em seu burrinho",
+    "author": [
+      { "family": "Moreira", "given": "Jair Célio" }
+    ],
+    "issued": { "date-parts": [[2016]] },
+    "medium": "1 fotografia",
+    "note": "Facebook: eliene.moura.58",
+    "URL": "https://www.facebook.com/photo.php?fbid=1220904821321837&set=a.1220904764655176&type=3&theater",
+    "accessed": { "date-parts": [[2019, 7, 28]] }
+  },
+  {
+    "id": "atlas-ceara-1997",
+    "type": "map",
+    "title": "ATLAS do Ceará",
+    "publisher": "Fundação Instituto de Planejamento do Ceará",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[1997]] },
+    "medium": "1 atlas"
+  },
+  {
+    "id": "brasil-mma-mapa-2012",
+    "type": "map",
+    "title": "Mapa do macrozoneamento ecológico-econômico da Bacia do Rio São Francisco: diagnóstico da biodiversidade: áreas importantes para conservação da biodiversidade",
+    "author": [
+      { "literal": "BRASIL. Ministério do Meio Ambiente" }
+    ],
+    "publisher": "MMA",
+    "publisher-place": "Brasília, DF",
+    "issued": { "date-parts": [[2012]] },
+    "medium": "1 mapa, color.",
+    "scale": "1:2750.000"
+  },
+  {
+    "id": "ceara-mapa-rodoviario-2005",
+    "type": "map",
+    "title": "Mapa rodoviário e político",
+    "author": [
+      { "literal": "CEARÁ. Secretaria de Infraestrutura" }
+    ],
+    "publisher": "SEINFRA",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2005]] },
+    "medium": "1 mapa, color.",
+    "scale": "1:750.000"
+  },
+  {
+    "id": "ceara-atlas-hidricos-2019",
+    "type": "map",
+    "title": "Atlas dos recursos hídricos do Ceará",
+    "author": [
+      { "literal": "CEARÁ. Secretaria de Recursos Hídricos. Companhia de Gestão dos Recursos Hídricos" }
+    ],
+    "publisher": "COGERH",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2019]] },
+    "medium": "1 atlas",
+    "URL": "http://atlas.cogerh.com.br/",
+    "accessed": { "date-parts": [[2011, 4, 26]] }
+  },
+  {
+    "id": "ibge-desigualdade-2010",
+    "type": "map",
+    "title": "Desigualdade econômica: infância",
+    "author": [
+      { "literal": "IBGE. Diretoria de Geodesia e Cartografia" }
+    ],
+    "publisher": "IBGE",
+    "publisher-place": "Rio de Janeiro",
+    "issued": { "date-parts": [[2010]] },
+    "medium": "1 mapa",
+    "scale": "1:30.000.000",
+    "URL": "https://atlasescolar.ibge.gov.br/images/atlas/mapas_brasil/brasil_infancia.pdf",
+    "accessed": { "date-parts": [[2019, 5, 25]] }
+  },
+  {
+    "id": "ebsco-medline-2019",
+    "type": "dataset",
+    "title": "Medline complete",
+    "author": [
+      { "literal": "EBSCO" }
+    ],
+    "publisher-place": "Rio de Janeiro",
+    "issued": { "date-parts": [[2019]] },
+    "URL": "http://web-b-ebscohost.ez11.periodicos.capes.gov.br/ehost/search/basic?vid=0&sid=61b3db52-f351-4dc5-b8d5-d396be905156%40sessionmgr103",
+    "accessed": { "date-parts": [[2019, 7, 29]] }
+  },
+  {
+    "id": "elsevier-sciencedirect-2019",
+    "type": "dataset",
+    "title": "ScienceDirect",
+    "author": [
+      { "literal": "ELSEVIER" }
+    ],
+    "publisher-place": "Rio de Janeiro",
+    "issued": { "date-parts": [[2019]] },
+    "URL": "https://www-sciencedirect.ez11.periodicos.capes.gov.br/",
+    "accessed": { "date-parts": [[2019, 7, 29]] }
+  },
+  {
+    "id": "cbbu-2019",
+    "type": "post",
+    "title": "CBBU",
+    "publisher-place": "[São Paulo]",
+    "issued": { "date-parts": [[2019]] },
+    "URL": "cbbu_febab@googlegroups.com",
+    "accessed": { "date-parts": [[2019, 7, 26]] }
+  },
+  {
+    "id": "python-brasil-2019",
+    "type": "post",
+    "title": "PYTHON Brasil",
+    "publisher-place": "[S. l.]",
+    "issued": { "date-parts": [[2019]] },
+    "URL": "python-brasil@yahoogrupos.com.br",
+    "accessed": { "date-parts": [[2019, 8, 22]] }
+  },
+  {
+    "id": "avast-2019",
+    "type": "book",
+    "title": "Avast antivirus",
+    "author": [
+      { "literal": "AVAST SOFTWARE" }
+    ],
+    "publisher-place": "Praga",
+    "issued": { "date-parts": [[2019]] },
+    "URL": "https://www.avast.com/index#pc",
+    "accessed": { "date-parts": [[2019, 7, 29]] }
+  },
+  {
+    "id": "microsoft-project-1995",
+    "type": "book",
+    "title": "Microsoft project for Windows 95",
+    "author": [
+      { "literal": "MICROSOFT CORPORATION" }
+    ],
+    "version": "4.1",
+    "publisher-place": "Washington, DC",
+    "issued": { "date-parts": [[1995]] },
+    "medium": "1 CD"
+  },
+  {
+    "id": "couto-mia-2019",
+    "type": "post",
+    "title": "A saudade",
+    "author": [
+      { "family": "Couto", "given": "Mia" }
+    ],
+    "publisher-place": "Cidade da Beira",
+    "issued": { "date-parts": [[2019, 8, 17]] },
+    "note": "Facebook: @miacoutooficial",
+    "URL": "https://www.facebook.com/miacoutooficial/photos/a.298941346819589/1244373005609747/?type=3&theater",
+    "accessed": { "date-parts": [[2019, 2, 22]] }
+  },
+  {
+    "id": "brasil-ciencia-twitter-2019",
+    "type": "post",
+    "title": "O BRASIL tem ciência de alta qualidade e pesquisadores de excelência reconhecida nacional e internacionalmente",
+    "publisher-place": "[Brasília, DF]",
+    "issued": { "date-parts": [[2019, 7, 8]] },
+    "note": "Twitter: @CNPq_Oficial",
+    "URL": "https://twitter.com/CNPq_Oficial/status/1148340918141018118",
+    "accessed": { "date-parts": [[2019, 8, 22]] }
+  },
+  {
+    "id": "ufc-bu-instagram-2019",
+    "type": "post",
+    "title": "Vamos fazer uma biblioteca sustentável?: diga sim ao recibo digital!",
+    "author": [
+      { "literal": "UNIVERSIDADE FEDERAL DO CEARÁ. Biblioteca Universitária" }
+    ],
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2019, 2, 13]] },
+    "note": "Instagram: @bibliotecauniversitariaufc",
+    "URL": "https://www.instagram.com/p/Bt0vs1UndCZ/",
+    "accessed": { "date-parts": [[2019, 2, 22]] }
+  },
+  {
+    "id": "abnt-email-2019",
+    "type": "personal_communication",
+    "title": "Convite 2ª reunião/2019 da Comissão de Estudo de Identificação e Descrição – CE-14:000.003",
+    "author": [
+      { "literal": "ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS" }
+    ],
+    "recipient": [
+      { "family": "Moura", "given": "Eliene" }
+    ],
+    "publisher-place": "São Paulo",
+    "issued": { "date-parts": [[2019, 5, 27]] },
+    "note": "1 mensagem eletrônica"
+  },
+  {
+    "id": "nascimento-whatsapp-2020",
+    "type": "personal_communication",
+    "title": "Livros eletrônicos",
+    "author": [
+      { "family": "Nascimento", "given": "Isabela" }
+    ],
+    "recipient": [
+      { "family": "Ribeiro", "given": "Nonato" }
+    ],
+    "publisher-place": "[Fortaleza]",
+    "issued": { "date-parts": [[2020, 3, 27]] },
+    "note": "1 mensagem Whatsapp"
+  },
+  {
+    "id": "ufc-website-2019",
+    "type": "webpage",
+    "title": "Biblioteca Universitária",
+    "author": [
+      { "literal": "UNIVERSIDADE FEDERAL DO CEARÁ" }
+    ],
+    "publisher": "UFC",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2019]] },
+    "URL": "http://www.biblioteca.ufc.br",
+    "accessed": { "date-parts": [[2019, 5, 18]] }
+  },
+  {
+    "id": "duval-entrevista-2020",
+    "type": "interview",
+    "title": "Entrevista: Raymond Duval e a teoria dos registros de representação semiótica",
+    "author": [
+      { "family": "Duval", "given": "Raymond" }
+    ],
+    "interviewer": [
+      { "family": "Freitas", "given": "José Luiz Magalhães de" },
+      { "family": "Rezende", "given": "Veridiana" }
+    ],
+    "container-title": "Revista Paranaense de Educação Matemática",
+    "publisher-place": "Campo Mourão",
+    "volume": "2",
+    "issue": "3",
+    "page": "10-34",
+    "issued": { "date-parts": [[2020]] }
+  },
+  {
+    "id": "barreira-entrevista-2011",
+    "type": "interview",
+    "title": "César Barreira",
+    "author": [
+      { "family": "Barreira", "given": "César" }
+    ],
+    "interviewer": [
+      { "family": "Ratton", "given": "José Luiz" }
+    ],
+    "container-title": "As ciências sociais e os pioneiros nos estudos sobre crime, violência e direitos humanos no Brasil",
+    "editor": [
+      { "family": "Ratton", "given": "José Luiz" },
+      { "family": "Lima", "given": "Renato Sérgio de" }
+    ],
+    "publisher": "ANPOCS",
+    "publisher-place": "São Paulo",
+    "issued": { "date-parts": [[2011]] },
+    "page": "192-207"
+  },
+  {
+    "id": "hoornaert-entrevista-2006",
+    "type": "interview",
+    "title": "Entrevista com Eduardo Hoornaert",
+    "author": [
+      { "family": "Hoornaert", "given": "Eduardo" }
+    ],
+    "interviewer": [
+      { "family": "Holanda", "given": "Cristina Rodrigues" }
+    ],
+    "container-title": "Trajetos: revista de história da UFC",
+    "publisher-place": "Fortaleza",
+    "volume": "4",
+    "issue": "8",
+    "page": "247-278",
+    "issued": { "date-parts": [[2006]] },
+    "URL": "http://www.repositorio.ufc.br/handle/riufc/20009",
+    "accessed": { "date-parts": [[2019, 8, 19]] }
+  },
+  {
+    "id": "campos-filho-resenha-2019",
+    "type": "review-book",
+    "title": "Brecht, Benjamin e a questão do engajamento",
+    "author": [
+      { "family": "Campos Filho", "given": "Lindberg S." }
+    ],
+    "container-title": "Margem Esquerda",
+    "publisher-place": "São Paulo",
+    "issue": "32",
+    "page": "149-152",
+    "issued": { "date-parts": [[2019, 5]] },
+    "note": "Resenha da obra de: BENJAMIN, Walter. Ensaios sobre Brecht. São Paulo: Boitempo, 2017. 152 p.",
+    "reviewed-author": [
+      { "family": "Benjamin", "given": "Walter" }
+    ],
+    "reviewed-title": "Ensaios sobre Brecht"
+  },
+  {
+    "id": "marques-recensao-2006",
+    "type": "review-book",
+    "title": "Recensão de livro",
+    "author": [
+      { "family": "Marques", "given": "Ramiro" }
+    ],
+    "container-title": "Interações",
+    "publisher-place": "Porto",
+    "issue": "3",
+    "page": "188-189",
+    "issued": { "date-parts": [[2006]] },
+    "note": "Recensão da obra de: JARDIM, J.; PEREIRA, A. Competências pessoais e sociais: guia prático para a mudança positiva. Porto: Edições Asa, 2006.",
+    "reviewed-author": [
+      { "family": "Jardim", "given": "J." },
+      { "family": "Pereira", "given": "A." }
+    ],
+    "reviewed-title": "Competências pessoais e sociais: guia prático para a mudança positiva"
+  },
+  {
+    "id": "lima-izabel-resenha-2014",
+    "type": "review-book",
+    "title": "Introdução à teoria geral da biblioteconomia: resenha",
+    "author": [
+      { "family": "Lima", "given": "Izabel" }
+    ],
+    "container-title": "Blog estante da bibliotecária",
+    "publisher-place": "Fortaleza",
+    "issued": { "date-parts": [[2014]] },
+    "note": "Resenha da obra de: VIEIRA, Ronaldo. Introdução à teoria geral da biblioteconomia. Rio de Janeiro: Interciência, 2014.",
+    "reviewed-author": [
+      { "family": "Vieira", "given": "Ronaldo" }
+    ],
+    "reviewed-title": "Introdução à teoria geral da biblioteconomia",
+    "URL": "https://estantedabibliotecaria.wordpress.com/2014/11/20/introducao-a-teoria-geral-da-biblioteconomia-resenha/",
+    "accessed": { "date-parts": [[2016, 4, 28]] }
+  },
+  {
+    "id": "martirani-resenha-2011",
+    "type": "review-book",
+    "title": "O livro e o pão",
+    "author": [
+      { "family": "Martirani", "given": "M. C." }
+    ],
+    "container-title": "Gazeta do Povo",
+    "publisher-place": "Curitiba",
+    "issued": { "date-parts": [[2011, 10, 25]] },
+    "note": "Resenha da obra de: SANT'ANNA, A. R. de. Ler o mundo. São Paulo: Global, 2011.",
+    "reviewed-author": [
+      { "family": "Sant'Anna", "given": "A. R. de" }
+    ],
+    "reviewed-title": "Ler o mundo",
+    "URL": "http://rascunho.gazetadopovo.com.br/o-livro-e-o-pao",
+    "accessed": { "date-parts": [[2011, 11, 18]] }
+  },
+  {
+    "id": "dipirona-bula-2013",
+    "type": "document",
+    "title": "DIPIRONA monoidratada: frasco gotejador",
+    "note": "Responsável técnico A. F. Sandes. 1 bula de remédio",
+    "publisher": "Farmace",
+    "publisher-place": "Barbalha",
+    "issued": { "date-parts": [[2013]] }
+  },
+  {
+    "id": "cefadroxila-bula-2010",
+    "type": "document",
+    "title": "CEFADROXILA",
+    "note": "Responsável técnico Ronoel Caza de Dio. 1 bula de remédio",
+    "publisher": "EMS",
+    "publisher-place": "Hortolândia",
+    "issued": { "date-parts": [[2010]] }
+  },
+  {
+    "id": "xeljanz-bula-2017",
+    "type": "document",
+    "title": "XELJANZ",
+    "note": "Responsável técnico Carolina C. S. Rizoli. 1 bula de remédio",
+    "publisher": "Pfizer",
+    "publisher-place": "São Paulo",
+    "issued": { "date-parts": [[2017]] }
+  },
+  {
+    "id": "advil-bula-2013",
+    "type": "document",
+    "title": "ADVIL: ibuprofeno",
+    "note": "Responsável técnico Edina S. M. Nakaruma. 1 bula de remédio",
+    "publisher": "Wyeth Indústria Farmacêutica",
+    "publisher-place": "São Paulo",
+    "issued": { "date-parts": [[2013]] },
+    "URL": "https://bula.medicinanet.com.br/bula/6551/advil_ibuprofeno.htm",
+    "accessed": { "date-parts": [[2019, 2, 15]] }
+  },
+  {
+    "id": "campos-humberto-psicografia-2015",
+    "type": "book",
+    "title": "Brasil, coração do mundo, pátria do evangelho",
+    "author": [
+      { "family": "Campos", "given": "Humberto de", "suffix": "(Espírito)" }
+    ],
+    "note": "Psicografado por Francisco Cândido Xavier",
+    "publisher": "FEB",
+    "publisher-place": "Brasília, DF",
+    "issued": { "date-parts": [[2015]] }
+  },
+  {
+    "id": "emanuel-cinquenta-2013",
+    "type": "book",
+    "title": "Cinquenta anos depois",
+    "author": [
+      { "literal": "EMANUEL (Espírito)" }
+    ],
+    "note": "Psicografado por Francisco Cândido Xavier",
+    "publisher": "FEB",
+    "publisher-place": "Brasília, DF",
+    "issued": { "date-parts": [[2013]] }
+  },
+  {
+    "id": "campos-humberto-cronicas-1963",
+    "type": "book",
+    "title": "Crônicas de além-túmulo",
+    "author": [
+      { "family": "Campos", "given": "Humberto de", "suffix": "(Espírito)" }
+    ],
+    "note": "Psicografado por Francisco Cândido Xavier",
+    "publisher": "FEB",
+    "publisher-place": "São Paulo",
+    "issued": { "date-parts": [[1963]] },
+    "URL": "http://www.oconsolador.com.br/linkfixo/bibliotecavirtual/chicoxavier/cronicasdealemturmulo.pdf",
+    "accessed": { "date-parts": [[2019, 2, 21]] }
+  },
+  {
+    "id": "emanuel-ha2000-1996",
+    "type": "book",
+    "title": "Há 2000 anos...: episódios da história do cristianismo no século I",
+    "author": [
+      { "literal": "EMANUEL (Espírito)" }
+    ],
+    "note": "Psicografado por Francisco Cândido Xavier",
+    "edition": "29",
+    "publisher": "FEB",
+    "publisher-place": "Rio de Janeiro",
+    "issued": { "date-parts": [[1996]] },
+    "URL": "http://www.oconsolador.com.br/linkfixo/bibliotecavirtual/chicoxavier/ha2000anos.pdf",
+    "accessed": { "date-parts": [[2019, 2, 21]] }
+  },
+  {
+    "id": "biblia-sagrada-1999",
+    "type": "book",
+    "title": "Bíblia sagrada",
+    "author": [
+      { "literal": "BÍBLIA" }
+    ],
+    "language": "pt",
+    "edition": "2",
+    "publisher": "Sociedade Bíblica do Brasil",
+    "publisher-place": "Barueri",
+    "issued": { "date-parts": [[1999]] }
+  },
+  {
+    "id": "biblia-online-2008",
+    "type": "book",
+    "title": "Bíblia online",
+    "author": [
+      { "literal": "BÍBLIA" }
+    ],
+    "language": "pt",
+    "publisher": "[s. n.]",
+    "publisher-place": "São Paulo",
+    "issued": { "date-parts": [[2008]] },
+    "URL": "http://www.bibliaonline.net/?lang=pt-BR",
+    "accessed": { "date-parts": [[2019, 2, 14]] }
+  },
+  {
+    "id": "biblia-at-eclesiastes-2001",
+    "type": "chapter",
+    "title": "A. T. Eclesiastes",
+    "author": [
+      { "literal": "BÍBLIA" }
+    ],
+    "container-title": "Bíblia sagrada: antigo e novo testamento",
+    "language": "pt",
+    "publisher": "Vida",
+    "publisher-place": "São Paulo",
+    "issued": { "date-parts": [[2001]] },
+    "page": "362-367"
+  },
+  {
+    "id": "biblia-nt-corintios-2008",
+    "type": "chapter",
+    "title": "N. T. Coríntios",
+    "author": [
+      { "literal": "BÍBLIA" }
+    ],
+    "container-title": "Bíblia online",
+    "language": "pt",
+    "publisher": "[s. n.]",
+    "publisher-place": "São Paulo",
+    "issued": { "date-parts": [[2008]] },
+    "URL": "https://www.bibliaonline.com.br/acf/1co/13",
+    "accessed": { "date-parts": [[2019, 7, 29]] }
+  }
+]
