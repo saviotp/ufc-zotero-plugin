@@ -1,33 +1,24 @@
 /**
- * index.ts — Entry point do plugin (fachada para o bootstrap.js)
+ * index.ts — Entry point do plugin (carregado pelo bootstrap.js)
  *
- * Este módulo é importado pelo bootstrap.js via ChromeUtils.importESModule().
- * Ele exporta um objeto default com dois métodos — startup() e shutdown() —
- * que o bootstrap chama nos momentos corretos do ciclo de vida.
+ * O bootstrap.js carrega este arquivo via Services.scriptloader.loadSubScript().
+ * Por isso, NÃO usamos export default — o loadSubScript não suporta ES modules.
  *
- * A responsabilidade deste arquivo é mínima:
- *   - Receber os dados do bootstrap (id, versão, rootURI, reason)
- *   - Delegar para hooks.ts, onde a lógica real vive
+ * Em vez disso, registramos o plugin globalmente em Zotero.__addonInstance__,
+ * expondo o objeto hooks para que o bootstrap possa chamar onStartup/onShutdown.
  *
- * Por que não exportar hooks.ts diretamente?
- *   - O bootstrap.js espera um "export default { startup, shutdown }"
- *   - hooks.ts pode ter múltiplas funções internas que não devem ser expostas
- *   - Este arquivo serve como "contrato" entre o mundo JS puro e o TypeScript
+ * O ESBuild compila isso como IIFE (Immediately Invoked Function Expression),
+ * que executa automaticamente quando o script é carregado.
  */
 
 import { onStartup, onShutdown } from "./hooks";
-import type { AddonData } from "./addon";
 
-export default {
-  startup(data: AddonData): void {
-    // onStartup é async, mas o bootstrap.js não espera a Promise.
-    // O Zotero não suporta startup assíncrono — por isso a lógica
-    // dentro de onStartup usa await internamente mas a chamada
-    // aqui é "fire and forget".
-    onStartup(data);
-  },
-
-  shutdown(data: AddonData): void {
-    onShutdown(data);
+// Registra a instância do plugin no namespace global do Zotero.
+// O bootstrap.js acessa via Zotero.__addonInstance__.hooks.onStartup().
+// @ts-expect-error — __addonInstance__ não existe nos types do Zotero
+Zotero.__addonInstance__ = {
+  hooks: {
+    onStartup,
+    onShutdown,
   },
 };

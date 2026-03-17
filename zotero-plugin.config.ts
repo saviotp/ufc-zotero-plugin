@@ -86,12 +86,14 @@ export default defineConfig({
         entryPoints: ["src/index.ts"],
 
         // Onde o arquivo compilado é gerado.
-        // Deve estar em addon/content/ porque é de lá que o
-        // bootstrap.js importa via ChromeUtils.importESModule().
+        // O bootstrap.js carrega via Services.scriptloader.loadSubScript().
         outdir: "addon/content",
 
-        // Gera ES Modules (import/export), não CommonJS (require).
-        format: "esm" as const,
+        // IIFE (Immediately Invoked Function Expression):
+        // loadSubScript() não suporta ES modules — precisa de IIFE.
+        // O código é encapsulado em (function() { ... })() e executa
+        // imediatamente quando carregado, registrando Zotero.__addonInstance__.
+        format: "iife" as const,
 
         // Alvo: Firefox 115 (Gecko 115) = base do Zotero 8.
         target: "firefox115",
