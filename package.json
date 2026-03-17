@@ -1,6 +1,6 @@
 {
   "name": "ufc-zotero-plugin",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Plugin para Zotero 8 que formata referências bibliográficas conforme o Guia de Normalização da UFC (ABNT-NBR 6023:2018 e ABNT-NBR 10520:2023). Desenvolvido para a Universidade Federal do Ceará, com suporte da Biblioteca Universitária.",
   "main": "index.js",
   "directories": {
